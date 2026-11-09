@@ -1,0 +1,4 @@
+.venv/
+js/node_modules/
+ephe/*.se1
+__pycache__/

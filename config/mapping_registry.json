@@ -1,0 +1,92 @@
+{
+  "registry_version": "1.0.0",
+  "declared_before_projection": true,
+  "domains": {
+    "D1": "Self/identity", "D2": "Career/status", "D3": "Wealth/gains", "D4": "Partnership",
+    "D5": "Family/roots/home", "D6": "Children/creation", "D7": "Health/routine",
+    "D8": "Mind/education/craft", "D9": "Fortune/spirituality/worldview"
+  },
+  "safety_exclusions": {
+    "house_8": "Not mapped in Jyotisha or Western (longevity/death topics are out of scope). No remapping elsewhere.",
+    "D7": "Projected only as prominence/routine emphasis; no medical claims are generated.",
+    "D6": "Projected as 'creation/output'; no fertility or pregnancy claims are generated."
+  },
+  "jyotisha": {
+    "rule_id": "JY-H1",
+    "house_domain": {"1": ["D1"], "2": ["D3"], "3": ["D8"], "4": ["D5"], "5": ["D6"], "6": ["D7"], "7": ["D4"],
+                     "8": [], "9": ["D9"], "10": ["D2"], "11": ["D3"], "12": ["D9"]},
+    "polarity_items": {
+      "lord_dignity": {"exalted": 1.0, "moolatrikona": 1.0, "own": 1.0, "friend_sign": 0.5, "neutral_sign": 0.0,
+                       "enemy_sign": -0.5, "debilitated": -1.0},
+      "lord_in_kendra_or_trikona": 0.5, "lord_in_dusthana_6_8_12": -0.5, "lord_combust": -0.5,
+      "occupant_natural_benefic": 0.5, "occupant_natural_malefic": -0.5,
+      "jupiter_drishti_on_house": 0.5, "saturn_or_mars_drishti_on_house": -0.5
+    },
+    "polarity_thresholds": {"supportive": ">= +1.0", "challenging": "<= -1.0", "mixed": "otherwise"},
+    "prominence": "points = occupants + 0.5 x (planets casting graha drishti on the house); >=2 high, >=1 medium, else low"
+  },
+  "western": {
+    "rule_id": "WE-H1",
+    "house_domain": {"1": ["D1"], "2": ["D3"], "3": ["D8"], "4": ["D5"], "5": ["D6"], "6": ["D7"], "7": ["D4"],
+                     "8": [], "9": ["D9"], "10": ["D2"], "11": ["D3"], "12": []},
+    "polarity_items": {
+      "ruler_domicile_or_exaltation": 1.0, "ruler_detriment_or_fall": -1.0,
+      "ruler_in_good_place": 0.5, "ruler_in_bad_place_6_8_12": -0.5,
+      "ruler_combust_or_under_beams": -0.5, "ruler_cazimi": 1.0,
+      "occupant_benefic_of_sect": 1.0, "occupant_contrary_benefic": 0.5,
+      "occupant_malefic_of_sect": -0.5, "occupant_contrary_malefic": -1.0
+    },
+    "polarity_thresholds": {"supportive": ">= +1.0", "challenging": "<= -1.0", "mixed": "otherwise"},
+    "prominence": "points = occupants (7 traditional planets) + 0.5 per Lot (Fortune/Spirit) in the house; >=2 high, >=1 medium, else low"
+  },
+  "ziwei": {
+    "rule_id": "ZW-P1",
+    "palace_domain": {"命宫": ["D1"], "官禄": ["D2"], "财帛": ["D3"], "夫妻": ["D4"], "田宅": ["D5"], "父母": ["D5"],
+                      "子女": ["D6"], "疾厄": ["D7"], "福德": ["D9"], "兄弟": [], "迁移": [], "仆役": []},
+    "polarity_items": {"brightness": {"庙": 1.0, "旺": 1.0, "得": 0.5, "利": 0.5, "平": 0.0, "不": -1.0, "陷": -1.0},
+                       "birth_mutagen_on_major_star": {"禄": 1.0, "权": 1.0, "科": 1.0, "忌": -1.0}},
+    "empty_palace": "No projection (silence is not agreement or negativity). No star borrowing in primary track.",
+    "minor_stars": "Excluded from domain polarity (kept separate).",
+    "polarity_thresholds": {"supportive": ">= +1.0", "challenging": "<= -1.0", "mixed": "otherwise"},
+    "prominence": "points = major stars + birth mutagens on major stars; >=2 high, 1 medium, 0 none",
+    "confidence": "medium if the domain label is identical under the alternative leap-month school; otherwise low"
+  },
+  "bazi": {
+    "rule_id": "BZ-T1",
+    "ten_god_domain": {"比肩": ["D1"], "劫财": ["D1"], "食神": ["D6"], "伤官": ["D6"], "偏财": ["D3"], "正财": ["D3"],
+                       "七杀": ["D2"], "正官": ["D2"], "偏印": ["D8"], "正印": ["D8"]},
+    "ten_god_domain_male_extra": {"偏财": ["D4"], "正财": ["D4"]},
+    "weights": {"visible_stem": 1.0, "hidden_main": 1.0, "hidden_middle": 0.5, "hidden_residual": 0.3},
+    "polarity": "favorable element under UG-A -> supportive; unfavorable -> challenging",
+    "confidence": "medium when UG-B agrees with UG-A's verdict for the element; low when UG-B is silent; mixed/low on disagreement",
+    "prominence": "weight sum >=2 high, >=1 medium, >0 low"
+  },
+  "cluster_rules": {
+    "primary_clusters": ["jyotisha", "western", "sinic"],
+    "sinic": "BaZi and Zi Wei combine internally (counted once). Only components with confidence >= medium are used; if they disagree in polarity the Sinic label is 'mixed'.",
+    "speaks": "A cluster speaks on a domain when its projection has confidence >= medium AND (prominence >= medium OR polarity != mixed).",
+    "grades": {"STRONG": "3 speaking clusters share one polarity", "MODERATE": "2 speaking clusters share one polarity, no supportive-vs-challenging conflict",
+               "WEAK": "only one cluster speaks, or speakers share no polarity without conflict",
+               "DIVERGENT": "speaking clusters include both supportive and challenging", "INSUFFICIENT": "no cluster speaks"}
+  },
+  "timing": {
+    "jyotisha": "JY-T1: domains of houses owned and occupied by the current Vimshottari antardasha lord",
+    "western": "WE-T1: domain of the profected house + domain of the house the lord of the year occupies natally",
+    "sinic": "SN-T1: domains of the BaZi annual stem's Ten God (BZ-T1 mapping) + domain of the Zi Wei yearly palace when identical under both leap-month schools",
+    "window": "moderate = 2 clusters activate same domain; strong = 3"
+  },
+  "temperament": {
+    "T1": {"jyotisha": "Sun in kendra or Sun exalted/own/moolatrikona", "western": "Sun angular or in domicile/exaltation",
+           "sinic": "紫微/太阳/天府 in Ming palace (both leap schools) OR Officer/Seven Killings as a visible stem"},
+    "T2": {"jyotisha": "Mars in kendra or Mars exalted/own/moolatrikona", "western": "Mars angular or in domicile/exaltation",
+           "sinic": "七杀/破军/贪狼 in Ming palace (both schools) OR Seven Killings/Rob Wealth as a visible stem"},
+    "T3": {"jyotisha": "Moon in kendra or Moon exalted/own/moolatrikona", "western": "Moon angular or in domicile/exaltation",
+           "sinic": "天同/太阴/天梁 in Ming palace (both schools) OR Resource as a visible stem"},
+    "T4": {"jyotisha": "Mercury in own/exalted/moolatrikona sign and not combust", "western": "Mercury in domicile/exaltation and free of beams",
+           "sinic": "天机 in Ming (both schools) OR Eating God/Hurting Officer as a visible stem"},
+    "T5": {"jyotisha": "Lagna in a dual sign", "western": "Ascendant in a mutable sign",
+           "sinic": "天机/贪狼 in Ming (both schools) OR Ming branch in 寅申巳亥 (both schools)"},
+    "T6": {"jyotisha": "Saturn in kendra or Saturn exalted/own/moolatrikona", "western": "Saturn angular or in domicile/exaltation",
+           "sinic": "天府/武曲/天梁 in Ming (both schools) OR Direct Officer as a visible stem"}
+  }
+}

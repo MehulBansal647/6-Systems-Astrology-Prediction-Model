@@ -1,0 +1,33 @@
+{
+  "original_user_input": {
+    "date_of_birth": "29/05/2001",
+    "time_of_birth": "6:20 PM",
+    "time_certainty": "Exact Time",
+    "birthplace": "PGI Chandigarh, India",
+    "gender": "Male",
+    "current_residence": "Permanent Parental Home - Chandigarh, Job -Gurugram",
+    "calendar_note": "none given (assumed Gregorian civil date)",
+    "dst_or_timezone_uncertainty_note": "none given"
+  },
+  "normalized": {
+    "date_gregorian": "2001-05-29",
+    "date_format_interpretation": "DD/MM/YYYY (Indian convention; 29 cannot be a month, so unambiguous)",
+    "local_time_24h": "18:20:00",
+    "time_uncertainty_minutes": 0.5,
+    "time_uncertainty_basis": "Reported exact to the minute; rounding interval +/-30 s used as the primary ensemble. A secondary +/-5 min stress band is also reported, disclosed as a sensitivity check, not rectification.",
+    "stress_band_minutes": 5,
+    "gender": "male",
+    "place": {
+      "label": "Post Graduate Institute of Medical Education and Research (PGIMER), Sector 12, Chandigarh, India",
+      "latitude": 30.7650,
+      "longitude": 76.7750,
+      "elevation_m": null,
+      "coordinate_source": "Reference coordinates for the PGIMER campus (no live geocoder reachable from the sandbox); estimated accuracy about 0.005 deg (~0.5 km). Elevation not reliably available; calculations use 0 m (sea-level horizon)."
+    },
+    "current_locations": [
+      {"label": "Chandigarh (parental home)", "latitude": 30.7333, "longitude": 76.7794, "coordinate_source": "Chandigarh city reference coordinates"},
+      {"label": "Gurugram (work)", "latitude": 28.4595, "longitude": 77.0266, "coordinate_source": "Gurugram city reference coordinates"}
+    ],
+    "timezone_iana": "Asia/Kolkata"
+  }
+}

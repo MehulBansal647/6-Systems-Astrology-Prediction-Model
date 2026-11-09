@@ -1,0 +1,70 @@
+{
+  "execution_timestamp_utc": "2026-11-09T20:15:43.329002+00:00",
+  "reference_date_for_timing": "2026-11-09",
+  "runtime": {
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "platform": "Linux-6.18.44-fc-v310-x86_64-with-glibc2.39",
+    "node": "v22.23.4"
+  },
+  "packages": {
+    "pyswisseph": "2.10.3.2",
+    "skyfield": "1.55",
+    "skyfield-data": "7.0.0",
+    "jplephem": "2.24",
+    "tzdata": "2026.6",
+    "timezonefinder": "9.2.0",
+    "lunar_python": "1.4.9",
+    "convertdate": "2.5.1",
+    "py-iztro": "0.1.5",
+    "numpy": "2.5.4"
+  },
+  "npm_packages": {
+    "iztro": "2.6.5"
+  },
+  "swiss_ephemeris_version": "2.10.03",
+  "ephemeris_files": {
+    "semo_18.se1": {
+      "sha256": "1ca07bd67c24374d77226180c20a4f9996cba013697894810518e7eb582ca4f7",
+      "size": 1304771,
+      "source": "github.com/aloistr/swisseph/ephe"
+    },
+    "sepl_18.se1": {
+      "sha256": "ca1393ceab3a44fbc895887cf789c68819ae6a1cbc9b22225872dbe4ccd99a66",
+      "size": 484061,
+      "source": "github.com/aloistr/swisseph/ephe"
+    }
+  },
+  "validator_kernel": {
+    "file": "de421.bsp",
+    "sha256": "a20a7139da04cbc462454634918e9a9ca69127044e2cc9d4f9c16e238d2deedc",
+    "source": "skyfield-data package"
+  },
+  "tzdata_release": "2026.6",
+  "source_checksums": {
+    "astro_core.py": "d307f0402d3b44ffa10f6093c3b70dea51209003df1cbfb9bc8f7152f7e0c52a",
+    "bazi.py": "b26bc9dcd8117f8286d8966657a44448536bab5ca1dec932ca3bd3d918bd7af7",
+    "build_dataset.py": "586250c6fad57b27d8da1ec0e85b20e9e616fe127fb37d64d1f72e51cc69f6df",
+    "calendars.py": "db48576c8712fc37a9f4e08feb1915886d69d845a1ca6fe0559e85000bd76e36",
+    "jyotisha.py": "6b0b140c373bbb2e65df99d041071c62bd1c65da32752e58e7a6e394f2e15288",
+    "report.py": "163e1c2f58e0a359d338a28b890849ed5a1b0edc8c84c15a96104c9e29b35f98",
+    "synthesize.py": "6b6aef72b0369ee8bb9cb6c05dea103682a2ed2ef5dddfb00eac2b71ec00da34",
+    "western.py": "af85180dab7addcc67119d18aa829e9b7f600a0804f4e6777e8d76c1ca3c8ed1",
+    "ziwei_iztro.js": "5c895d0eb96e40041f35159251332e1d9655d639b6ba20005fba3925ce77124f"
+  },
+  "conventions": {
+    "western": "tropical; geocentric apparent; whole-sign houses; 7 traditional planets; sect by Sun geometric altitude; Egyptian bounds; Dorothean triplicities; Chaldean faces; Lilly moiety orbs",
+    "western_optional_track": "Placidus cusps and outer planets reported separately, no votes",
+    "jyotisha": "sidereal Lahiri (SIDM_LAHIRI); whole-sign houses; mean node primary (true node reported); Vimshottari with 365.25-day years; BPHS dignities and natural relationships; graha drishti whole-sign",
+    "bazi": "civil local time primary (IST), local apparent solar time checked; midnight day boundary; exact sectional solar terms (Swiss Ephemeris); Da Yun rule DY-A (1 day = 120 days)",
+    "ziwei": "iztro 2.6.5 bySolar, fixLeap=true, normal year divide; civil time index",
+    "maya": "GMT correlation 584283",
+    "tibetan": "element-animal year only; Rabjung epoch 1027",
+    "time": "IANA Asia/Kolkata, UTC+05:30, no DST in 2001"
+  },
+  "tolerances": {
+    "planet_longitude_deg": 0.01,
+    "asc_mc_deg": 0.05,
+    "solar_term_seconds": 120,
+    "sunrise_sunset_seconds": 120
+  }
+}

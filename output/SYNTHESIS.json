@@ -1,0 +1,4156 @@
+{
+  "registry_version": "1.0.0",
+  "reference_date": "2026-11-09",
+  "divergence": {
+    "divergent_domains": 3,
+    "rate_over_all_9": 0.3333333333333333,
+    "domains_with_sufficient_evidence": 9,
+    "rate_over_sufficient": 0.3333333333333333
+  },
+  "grades": {
+    "D1": "WEAK",
+    "D2": "WEAK",
+    "D3": "MODERATE",
+    "D4": "DIVERGENT",
+    "D5": "DIVERGENT",
+    "D6": "WEAK",
+    "D7": "WEAK",
+    "D8": "DIVERGENT",
+    "D9": "WEAK"
+  },
+  "domains": {
+    "D1": {
+      "name": "Self/identity",
+      "grade": "WEAK",
+      "speaking_clusters": [
+        "jyotisha",
+        "sinic"
+      ],
+      "shared_polarity": null,
+      "projections": {
+        "jyotisha": {
+          "domain": "D1",
+          "system": "jyotisha",
+          "cluster": "jyotisha",
+          "prominence": "medium",
+          "polarity": "mixed",
+          "score": 0.5,
+          "confidence": "high",
+          "basis": [
+            {
+              "house": 1,
+              "sign": "Scorpio",
+              "score": 0.5,
+              "points": 1.5,
+              "items": [
+                [
+                  "lord Mars dignity friend_sign",
+                  0.5
+                ],
+                [
+                  "Jupiter drishti",
+                  0.5
+                ],
+                [
+                  "Saturn drishti",
+                  -0.5
+                ]
+              ],
+              "occupants": [],
+              "aspected_by": [
+                "Sun",
+                "Jupiter",
+                "Saturn"
+              ]
+            }
+          ],
+          "mapping_rule": "JY-H1"
+        },
+        "western": {
+          "domain": "D1",
+          "system": "western",
+          "cluster": "western",
+          "prominence": "low",
+          "polarity": "mixed",
+          "score": 0.5,
+          "confidence": "high",
+          "basis": [
+            {
+              "house": 1,
+              "sign": "Scorpio",
+              "score": 0.5,
+              "points": 0.0,
+              "items": [
+                [
+                  "ruler Mars in good place (house 2)",
+                  0.5
+                ]
+              ],
+              "occupants": [],
+              "lots": []
+            }
+          ],
+          "mapping_rule": "WE-H1"
+        },
+        "sinic": {
+          "domain": "D1",
+          "cluster": "sinic",
+          "prominence": "medium",
+          "polarity": "supportive",
+          "confidence": "medium",
+          "internal_corroboration": false,
+          "internal_disagreement": false,
+          "components": [
+            {
+              "domain": "D1",
+              "system": "ziwei",
+              "cluster": "sinic",
+              "prominence": "medium",
+              "polarity": "mixed",
+              "score": 0.0,
+              "confidence": "low",
+              "basis": [
+                {
+                  "palace": "命宫",
+                  "branch": "申",
+                  "empty": false,
+                  "score": 0.0,
+                  "points": 1,
+                  "items": [
+                    [
+                      "贪狼 brightness 平",
+                      0.0
+                    ]
+                  ]
+                }
+              ],
+              "alt_leap_school": {
+                "silent": false,
+                "prominence": "high",
+                "polarity": "supportive",
+                "score": 3.0,
+                "basis": [
+                  {
+                    "palace": "命宫",
+                    "branch": "酉",
+                    "empty": false,
+                    "score": 3.0,
+                    "points": 3,
+                    "items": [
+                      [
+                        "天机 brightness 旺",
+                        1.0
+                      ],
+                      [
+                        "巨门 brightness 庙",
+                        1.0
+                      ],
+                      [
+                        "巨门 化禄",
+                        1.0
+                      ]
+                    ]
+                  }
+                ]
+              },
+              "mapping_rule": "ZW-P1"
+            },
+            {
+              "domain": "D1",
+              "system": "bazi",
+              "cluster": "sinic",
+              "prominence": "medium",
+              "polarity": "supportive",
+              "weight_sum": 1.3,
+              "confidence": "medium",
+              "basis": [
+                {
+                  "position": "month_stem",
+                  "stem": "癸",
+                  "ten_god": "劫财",
+                  "en": "Rob Wealth",
+                  "weight": 1.0,
+                  "element": "Water"
+                },
+                {
+                  "position": "day_hidden_2",
+                  "stem": "癸",
+                  "ten_god": "劫财",
+                  "en": "Rob Wealth",
+                  "weight": 0.3,
+                  "element": "Water"
+                }
+              ],
+              "element_basis": {
+                "Water": "supportive"
+              },
+              "mapping_rule": "BZ-T1"
+            }
+          ]
+        }
+      },
+      "component_projections": {
+        "ziwei": {
+          "domain": "D1",
+          "system": "ziwei",
+          "cluster": "sinic",
+          "prominence": "medium",
+          "polarity": "mixed",
+          "score": 0.0,
+          "confidence": "low",
+          "basis": [
+            {
+              "palace": "命宫",
+              "branch": "申",
+              "empty": false,
+              "score": 0.0,
+              "points": 1,
+              "items": [
+                [
+                  "贪狼 brightness 平",
+                  0.0
+                ]
+              ]
+            }
+          ],
+          "alt_leap_school": {
+            "silent": false,
+            "prominence": "high",
+            "polarity": "supportive",
+            "score": 3.0,
+            "basis": [
+              {
+                "palace": "命宫",
+                "branch": "酉",
+                "empty": false,
+                "score": 3.0,
+                "points": 3,
+                "items": [
+                  [
+                    "天机 brightness 旺",
+                    1.0
+                  ],
+                  [
+                    "巨门 brightness 庙",
+                    1.0
+                  ],
+                  [
+                    "巨门 化禄",
+                    1.0
+                  ]
+                ]
+              }
+            ]
+          },
+          "mapping_rule": "ZW-P1"
+        },
+        "bazi": {
+          "domain": "D1",
+          "system": "bazi",
+          "cluster": "sinic",
+          "prominence": "medium",
+          "polarity": "supportive",
+          "weight_sum": 1.3,
+          "confidence": "medium",
+          "basis": [
+            {
+              "position": "month_stem",
+              "stem": "癸",
+              "ten_god": "劫财",
+              "en": "Rob Wealth",
+              "weight": 1.0,
+              "element": "Water"
+            },
+            {
+              "position": "day_hidden_2",
+              "stem": "癸",
+              "ten_god": "劫财",
+              "en": "Rob Wealth",
+              "weight": 0.3,
+              "element": "Water"
+            }
+          ],
+          "element_basis": {
+            "Water": "supportive"
+          },
+          "mapping_rule": "BZ-T1"
+        }
+      }
+    },
+    "D2": {
+      "name": "Career/status",
+      "grade": "WEAK",
+      "speaking_clusters": [
+        "jyotisha"
+      ],
+      "shared_polarity": null,
+      "projections": {
+        "jyotisha": {
+          "domain": "D2",
+          "system": "jyotisha",
+          "cluster": "jyotisha",
+          "prominence": "medium",
+          "polarity": "mixed",
+          "score": 0.5,
+          "confidence": "high",
+          "basis": [
+            {
+              "house": 10,
+              "sign": "Leo",
+              "score": 0.5,
+              "points": 1.0,
+              "items": [
+                [
+                  "lord Sun dignity enemy_sign",
+                  -0.5
+                ],
+                [
+                  "lord Sun in house 7 (kendra/trikona)",
+                  0.5
+                ],
+                [
+                  "occupant Moon (natural benefic)",
+                  0.5
+                ]
+              ],
+              "occupants": [
+                "Moon"
+              ],
+              "aspected_by": []
+            }
+          ],
+          "mapping_rule": "JY-H1"
+        },
+        "western": {
+          "domain": "D2",
+          "system": "western",
+          "cluster": "western",
+          "prominence": "low",
+          "polarity": "mixed",
+          "score": -0.5,
+          "confidence": "high",
+          "basis": [
+            {
+              "house": 10,
+              "sign": "Leo",
+              "score": -0.5,
+              "points": 0.0,
+              "items": [
+                [
+                  "ruler Sun in bad place (house 8)",
+                  -0.5
+                ]
+              ],
+              "occupants": [],
+              "lots": []
+            }
+          ],
+          "mapping_rule": "WE-H1"
+        },
+        "sinic": {
+          "domain": "D2",
+          "cluster": "sinic",
+          "prominence": "high",
+          "polarity": "mixed",
+          "confidence": "low",
+          "components": [
+            {
+              "domain": "D2",
+              "system": "ziwei",
+              "cluster": "sinic",
+              "prominence": "medium",
+              "polarity": "supportive",
+              "score": 1.0,
+              "confidence": "low",
+              "basis": [
+                {
+                  "palace": "官禄",
+                  "branch": "子",
+                  "empty": false,
+                  "score": 1.0,
+                  "points": 1,
+                  "items": [
+                    [
+                      "七杀 brightness 旺",
+                      1.0
+                    ]
+                  ]
+                }
+              ],
+              "alt_leap_school": {
+                "silent": true,
+                "basis": [
+                  {
+                    "palace": "官禄",
+                    "branch": "丑",
+                    "empty": true
+                  }
+                ]
+              },
+              "mapping_rule": "ZW-P1"
+            },
+            {
+              "domain": "D2",
+              "system": "bazi",
+              "cluster": "sinic",
+              "prominence": "high",
+              "polarity": "challenging",
+              "weight_sum": 3.0,
+              "confidence": "low",
+              "basis": [
+                {
+                  "position": "year_hidden_1",
+                  "stem": "戊",
+                  "ten_god": "七杀",
+                  "en": "Seven Killings",
+                  "weight": 0.5,
+                  "element": "Earth"
+                },
+                {
+                  "position": "month_hidden_1",
+                  "stem": "戊",
+                  "ten_god": "七杀",
+                  "en": "Seven Killings",
+                  "weight": 0.5,
+                  "element": "Earth"
+                },
+                {
+                  "position": "day_hidden_0",
+                  "stem": "戊",
+                  "ten_god": "七杀",
+                  "en": "Seven Killings",
+                  "weight": 1.0,
+                  "element": "Earth"
+                },
+                {
+                  "position": "hour_stem",
+                  "stem": "己",
+                  "ten_god": "正官",
+                  "en": "Direct Officer",
+                  "weight": 1.0,
+                  "element": "Earth"
+                }
+              ],
+              "element_basis": {
+                "Earth": "challenging"
+              },
+              "mapping_rule": "BZ-T1"
+            }
+          ],
+          "note": "only low-confidence components"
+        }
+      },
+      "component_projections": {
+        "ziwei": {
+          "domain": "D2",
+          "system": "ziwei",
+          "cluster": "sinic",
+          "prominence": "medium",
+          "polarity": "supportive",
+          "score": 1.0,
+          "confidence": "low",
+          "basis": [
+            {
+              "palace": "官禄",
+              "branch": "子",
+              "empty": false,
+              "score": 1.0,
+              "points": 1,
+              "items": [
+                [
+                  "七杀 brightness 旺",
+                  1.0
+                ]
+              ]
+            }
+          ],
+          "alt_leap_school": {
+            "silent": true,
+            "basis": [
+              {
+                "palace": "官禄",
+                "branch": "丑",
+                "empty": true
+              }
+            ]
+          },
+          "mapping_rule": "ZW-P1"
+        },
+        "bazi": {
+          "domain": "D2",
+          "system": "bazi",
+          "cluster": "sinic",
+          "prominence": "high",
+          "polarity": "challenging",
+          "weight_sum": 3.0,
+          "confidence": "low",
+          "basis": [
+            {
+              "position": "year_hidden_1",
+              "stem": "戊",
+              "ten_god": "七杀",
+              "en": "Seven Killings",
+              "weight": 0.5,
+              "element": "Earth"
+            },
+            {
+              "position": "month_hidden_1",
+              "stem": "戊",
+              "ten_god": "七杀",
+              "en": "Seven Killings",
+              "weight": 0.5,
+              "element": "Earth"
+            },
+            {
+              "position": "day_hidden_0",
+              "stem": "戊",
+              "ten_god": "七杀",
+              "en": "Seven Killings",
+              "weight": 1.0,
+              "element": "Earth"
+            },
+            {
+              "position": "hour_stem",
+              "stem": "己",
+              "ten_god": "正官",
+              "en": "Direct Officer",
+              "weight": 1.0,
+              "element": "Earth"
+            }
+          ],
+          "element_basis": {
+            "Earth": "challenging"
+          },
+          "mapping_rule": "BZ-T1"
+        }
+      }
+    },
+    "D3": {
+      "name": "Wealth/gains",
+      "grade": "MODERATE",
+      "speaking_clusters": [
+        "jyotisha",
+        "sinic",
+        "western"
+      ],
+      "shared_polarity": "mixed",
+      "projections": {
+        "jyotisha": {
+          "domain": "D3",
+          "system": "jyotisha",
+          "cluster": "jyotisha",
+          "prominence": "high",
+          "polarity": "mixed",
+          "score": 0.0,
+          "confidence": "high",
+          "basis": [
+            {
+              "house": 2,
+              "sign": "Sagittarius",
+              "score": -1.0,
+              "points": 2.5,
+              "items": [
+                [
+                  "lord Jupiter dignity enemy_sign",
+                  -0.5
+                ],
+                [
+                  "lord Jupiter in house 7 (kendra/trikona)",
+                  0.5
+                ],
+                [
+                  "occupant Mars (natural malefic)",
+                  -0.5
+                ],
+                [
+                  "occupant Ketu (natural malefic)",
+                  -0.5
+                ]
+              ],
+              "occupants": [
+                "Mars",
+                "Ketu"
+              ],
+              "aspected_by": [
+                "Mercury"
+              ]
+            },
+            {
+              "house": 11,
+              "sign": "Virgo",
+              "score": 1.0,
+              "points": 1.0,
+              "items": [
+                [
+                  "lord Mercury dignity own",
+                  1.0
+                ],
+                [
+                  "lord Mercury in house 8 (dusthana)",
+                  -0.5
+                ],
+                [
+                  "Jupiter drishti",
+                  0.5
+                ]
+              ],
+              "occupants": [],
+              "aspected_by": [
+                "Jupiter",
+                "Venus"
+              ]
+            }
+          ],
+          "mapping_rule": "JY-H1"
+        },
+        "western": {
+          "domain": "D3",
+          "system": "western",
+          "cluster": "western",
+          "prominence": "medium",
+          "polarity": "challenging",
+          "score": -2.5,
+          "confidence": "high",
+          "basis": [
+            {
+              "house": 2,
+              "sign": "Sagittarius",
+              "score": -3.0,
+              "points": 1.0,
+              "items": [
+                [
+                  "ruler Jupiter in detriment",
+                  -1.0
+                ],
+                [
+                  "ruler Jupiter in bad place (house 8)",
+                  -0.5
+                ],
+                [
+                  "ruler Jupiter under_the_beams",
+                  -0.5
+                ],
+                [
+                  "occupant Mars contrary malefic",
+                  -1.0
+                ]
+              ],
+              "occupants": [
+                "Mars"
+              ],
+              "lots": []
+            },
+            {
+              "house": 11,
+              "sign": "Virgo",
+              "score": 0.5,
+              "points": 1.5,
+              "items": [
+                [
+                  "ruler Mercury in domicile",
+                  1.0
+                ],
+                [
+                  "ruler Mercury in bad place (house 8)",
+                  -0.5
+                ],
+                [
+                  "occupant Moon (neutral in this rule)",
+                  0.0
+                ]
+              ],
+              "occupants": [
+                "Moon"
+              ],
+              "lots": [
+                "Spirit"
+              ]
+            }
+          ],
+          "mapping_rule": "WE-H1"
+        },
+        "sinic": {
+          "domain": "D3",
+          "cluster": "sinic",
+          "prominence": "high",
+          "polarity": "mixed",
+          "confidence": "medium",
+          "internal_corroboration": false,
+          "internal_disagreement": true,
+          "components": [
+            {
+              "domain": "D3",
+              "system": "ziwei",
+              "cluster": "sinic",
+              "prominence": "medium",
+              "polarity": "supportive",
+              "score": 1.0,
+              "confidence": "medium",
+              "basis": [
+                {
+                  "palace": "财帛",
+                  "branch": "辰",
+                  "empty": false,
+                  "score": 1.0,
+                  "points": 1,
+                  "items": [
+                    [
+                      "破军 brightness 旺",
+                      1.0
+                    ]
+                  ]
+                }
+              ],
+              "alt_leap_school": {
+                "silent": false,
+                "prominence": "medium",
+                "polarity": "supportive",
+                "score": 1.0,
+                "basis": [
+                  {
+                    "palace": "财帛",
+                    "branch": "巳",
+                    "empty": false,
+                    "score": 1.0,
+                    "points": 1,
+                    "items": [
+                      [
+                        "天同 brightness 庙",
+                        1.0
+                      ]
+                    ]
+                  }
+                ]
+              },
+              "mapping_rule": "ZW-P1"
+            },
+            {
+              "domain": "D3",
+              "system": "bazi",
+              "cluster": "sinic",
+              "prominence": "high",
+              "polarity": "challenging",
+              "weight_sum": 2.0,
+              "confidence": "medium",
+              "basis": [
+                {
+                  "position": "year_hidden_0",
+                  "stem": "丙",
+                  "ten_god": "偏财",
+                  "en": "Indirect Wealth",
+                  "weight": 1.0,
+                  "element": "Fire"
+                },
+                {
+                  "position": "month_hidden_0",
+                  "stem": "丙",
+                  "ten_god": "偏财",
+                  "en": "Indirect Wealth",
+                  "weight": 1.0,
+                  "element": "Fire"
+                }
+              ],
+              "element_basis": {
+                "Fire": "challenging"
+              },
+              "mapping_rule": "BZ-T1"
+            }
+          ]
+        }
+      },
+      "component_projections": {
+        "ziwei": {
+          "domain": "D3",
+          "system": "ziwei",
+          "cluster": "sinic",
+          "prominence": "medium",
+          "polarity": "supportive",
+          "score": 1.0,
+          "confidence": "medium",
+          "basis": [
+            {
+              "palace": "财帛",
+              "branch": "辰",
+              "empty": false,
+              "score": 1.0,
+              "points": 1,
+              "items": [
+                [
+                  "破军 brightness 旺",
+                  1.0
+                ]
+              ]
+            }
+          ],
+          "alt_leap_school": {
+            "silent": false,
+            "prominence": "medium",
+            "polarity": "supportive",
+            "score": 1.0,
+            "basis": [
+              {
+                "palace": "财帛",
+                "branch": "巳",
+                "empty": false,
+                "score": 1.0,
+                "points": 1,
+                "items": [
+                  [
+                    "天同 brightness 庙",
+                    1.0
+                  ]
+                ]
+              }
+            ]
+          },
+          "mapping_rule": "ZW-P1"
+        },
+        "bazi": {
+          "domain": "D3",
+          "system": "bazi",
+          "cluster": "sinic",
+          "prominence": "high",
+          "polarity": "challenging",
+          "weight_sum": 2.0,
+          "confidence": "medium",
+          "basis": [
+            {
+              "position": "year_hidden_0",
+              "stem": "丙",
+              "ten_god": "偏财",
+              "en": "Indirect Wealth",
+              "weight": 1.0,
+              "element": "Fire"
+            },
+            {
+              "position": "month_hidden_0",
+              "stem": "丙",
+              "ten_god": "偏财",
+              "en": "Indirect Wealth",
+              "weight": 1.0,
+              "element": "Fire"
+            }
+          ],
+          "element_basis": {
+            "Fire": "challenging"
+          },
+          "mapping_rule": "BZ-T1"
+        }
+      }
+    },
+    "D4": {
+      "name": "Partnership",
+      "grade": "DIVERGENT",
+      "speaking_clusters": [
+        "jyotisha",
+        "sinic",
+        "western"
+      ],
+      "shared_polarity": null,
+      "projections": {
+        "jyotisha": {
+          "domain": "D4",
+          "system": "jyotisha",
+          "cluster": "jyotisha",
+          "prominence": "high",
+          "polarity": "supportive",
+          "score": 1.0,
+          "confidence": "high",
+          "basis": [
+            {
+              "house": 7,
+              "sign": "Taurus",
+              "score": 1.0,
+              "points": 3.0,
+              "items": [
+                [
+                  "lord Venus dignity exalted",
+                  1.0
+                ],
+                [
+                  "lord Venus in house 5 (kendra/trikona)",
+                  0.5
+                ],
+                [
+                  "occupant Sun (natural malefic)",
+                  -0.5
+                ],
+                [
+                  "occupant Jupiter (natural benefic)",
+                  0.5
+                ],
+                [
+                  "occupant Saturn (natural malefic)",
+                  -0.5
+                ]
+              ],
+              "occupants": [
+                "Sun",
+                "Jupiter",
+                "Saturn"
+              ],
+              "aspected_by": []
+            }
+          ],
+          "mapping_rule": "JY-H1"
+        },
+        "western": {
+          "domain": "D4",
+          "system": "western",
+          "cluster": "western",
+          "prominence": "low",
+          "polarity": "challenging",
+          "score": -1.5,
+          "confidence": "high",
+          "basis": [
+            {
+              "house": 7,
+              "sign": "Taurus",
+              "score": -1.5,
+              "points": 0.0,
+              "items": [
+                [
+                  "ruler Venus in detriment",
+                  -1.0
+                ],
+                [
+                  "ruler Venus in bad place (house 6)",
+                  -0.5
+                ]
+              ],
+              "occupants": [],
+              "lots": []
+            }
+          ],
+          "mapping_rule": "WE-H1"
+        },
+        "sinic": {
+          "domain": "D4",
+          "cluster": "sinic",
+          "prominence": "high",
+          "polarity": "challenging",
+          "confidence": "medium",
+          "internal_corroboration": false,
+          "internal_disagreement": false,
+          "components": [
+            {
+              "domain": "D4",
+              "system": "ziwei",
+              "cluster": "sinic",
+              "prominence": "high",
+              "polarity": "supportive",
+              "score": 2.0,
+              "confidence": "low",
+              "basis": [
+                {
+                  "palace": "夫妻",
+                  "branch": "午",
+                  "empty": false,
+                  "score": 2.0,
+                  "points": 2,
+                  "items": [
+                    [
+                      "武曲 brightness 旺",
+                      1.0
+                    ],
+                    [
+                      "天府 brightness 旺",
+                      1.0
+                    ]
+                  ]
+                }
+              ],
+              "alt_leap_school": {
+                "silent": false,
+                "prominence": "high",
+                "polarity": "mixed",
+                "score": 0.5,
+                "basis": [
+                  {
+                    "palace": "夫妻",
+                    "branch": "未",
+                    "empty": false,
+                    "score": 0.5,
+                    "points": 3,
+                    "items": [
+                      [
+                        "太阳 brightness 得",
+                        0.5
+                      ],
+                      [
+                        "太阳 化权",
+                        1.0
+                      ],
+                      [
+                        "太阴 brightness 不",
+                        -1.0
+                      ]
+                    ]
+                  }
+                ]
+              },
+              "mapping_rule": "ZW-P1"
+            },
+            {
+              "domain": "D4",
+              "system": "bazi",
+              "cluster": "sinic",
+              "prominence": "high",
+              "polarity": "challenging",
+              "weight_sum": 2.0,
+              "confidence": "medium",
+              "basis": [
+                {
+                  "position": "year_hidden_0",
+                  "stem": "丙",
+                  "ten_god": "偏财",
+                  "en": "Indirect Wealth",
+                  "weight": 1.0,
+                  "element": "Fire"
+                },
+                {
+                  "position": "month_hidden_0",
+                  "stem": "丙",
+                  "ten_god": "偏财",
+                  "en": "Indirect Wealth",
+                  "weight": 1.0,
+                  "element": "Fire"
+                }
+              ],
+              "element_basis": {
+                "Fire": "challenging"
+              },
+              "mapping_rule": "BZ-T1"
+            }
+          ]
+        }
+      },
+      "component_projections": {
+        "ziwei": {
+          "domain": "D4",
+          "system": "ziwei",
+          "cluster": "sinic",
+          "prominence": "high",
+          "polarity": "supportive",
+          "score": 2.0,
+          "confidence": "low",
+          "basis": [
+            {
+              "palace": "夫妻",
+              "branch": "午",
+              "empty": false,
+              "score": 2.0,
+              "points": 2,
+              "items": [
+                [
+                  "武曲 brightness 旺",
+                  1.0
+                ],
+                [
+                  "天府 brightness 旺",
+                  1.0
+                ]
+              ]
+            }
+          ],
+          "alt_leap_school": {
+            "silent": false,
+            "prominence": "high",
+            "polarity": "mixed",
+            "score": 0.5,
+            "basis": [
+              {
+                "palace": "夫妻",
+                "branch": "未",
+                "empty": false,
+                "score": 0.5,
+                "points": 3,
+                "items": [
+                  [
+                    "太阳 brightness 得",
+                    0.5
+                  ],
+                  [
+                    "太阳 化权",
+                    1.0
+                  ],
+                  [
+                    "太阴 brightness 不",
+                    -1.0
+                  ]
+                ]
+              }
+            ]
+          },
+          "mapping_rule": "ZW-P1"
+        },
+        "bazi": {
+          "domain": "D4",
+          "system": "bazi",
+          "cluster": "sinic",
+          "prominence": "high",
+          "polarity": "challenging",
+          "weight_sum": 2.0,
+          "confidence": "medium",
+          "basis": [
+            {
+              "position": "year_hidden_0",
+              "stem": "丙",
+              "ten_god": "偏财",
+              "en": "Indirect Wealth",
+              "weight": 1.0,
+              "element": "Fire"
+            },
+            {
+              "position": "month_hidden_0",
+              "stem": "丙",
+              "ten_god": "偏财",
+              "en": "Indirect Wealth",
+              "weight": 1.0,
+              "element": "Fire"
+            }
+          ],
+          "element_basis": {
+            "Fire": "challenging"
+          },
+          "mapping_rule": "BZ-T1"
+        }
+      }
+    },
+    "D5": {
+      "name": "Family/roots/home",
+      "grade": "DIVERGENT",
+      "speaking_clusters": [
+        "jyotisha",
+        "sinic",
+        "western"
+      ],
+      "shared_polarity": null,
+      "projections": {
+        "jyotisha": {
+          "domain": "D5",
+          "system": "jyotisha",
+          "cluster": "jyotisha",
+          "prominence": "medium",
+          "polarity": "mixed",
+          "score": 0.0,
+          "confidence": "high",
+          "basis": [
+            {
+              "house": 4,
+              "sign": "Aquarius",
+              "score": 0.0,
+              "points": 1.0,
+              "items": [
+                [
+                  "lord Saturn dignity friend_sign",
+                  0.5
+                ],
+                [
+                  "lord Saturn in house 7 (kendra/trikona)",
+                  0.5
+                ],
+                [
+                  "lord Saturn combust",
+                  -0.5
+                ],
+                [
+                  "Saturn drishti",
+                  -0.5
+                ]
+              ],
+              "occupants": [],
+              "aspected_by": [
+                "Moon",
+                "Saturn"
+              ]
+            }
+          ],
+          "mapping_rule": "JY-H1"
+        },
+        "western": {
+          "domain": "D5",
+          "system": "western",
+          "cluster": "western",
+          "prominence": "low",
+          "polarity": "challenging",
+          "score": -1.0,
+          "confidence": "high",
+          "basis": [
+            {
+              "house": 4,
+              "sign": "Aquarius",
+              "score": -1.0,
+              "points": 0.5,
+              "items": [
+                [
+                  "ruler Saturn in bad place (house 8)",
+                  -0.5
+                ],
+                [
+                  "ruler Saturn combust",
+                  -0.5
+                ]
+              ],
+              "occupants": [],
+              "lots": [
+                "Fortune"
+              ]
+            }
+          ],
+          "mapping_rule": "WE-H1"
+        },
+        "sinic": {
+          "domain": "D5",
+          "cluster": "sinic",
+          "prominence": "high",
+          "polarity": "supportive",
+          "confidence": "medium",
+          "internal_corroboration": false,
+          "internal_disagreement": false,
+          "components": [
+            {
+              "domain": "D5",
+              "system": "ziwei",
+              "cluster": "sinic",
+              "prominence": "high",
+              "polarity": "supportive",
+              "score": 2.0,
+              "confidence": "medium",
+              "basis": [
+                {
+                  "palace": "父母",
+                  "branch": "酉",
+                  "empty": false,
+                  "score": 3.0,
+                  "points": 3,
+                  "items": [
+                    [
+                      "天机 brightness 旺",
+                      1.0
+                    ],
+                    [
+                      "巨门 brightness 庙",
+                      1.0
+                    ],
+                    [
+                      "巨门 化禄",
+                      1.0
+                    ]
+                  ]
+                },
+                {
+                  "palace": "田宅",
+                  "branch": "亥",
+                  "empty": false,
+                  "score": -1.0,
+                  "points": 1,
+                  "items": [
+                    [
+                      "天梁 brightness 陷",
+                      -1.0
+                    ]
+                  ]
+                }
+              ],
+              "alt_leap_school": {
+                "silent": false,
+                "prominence": "high",
+                "polarity": "supportive",
+                "score": 2.0,
+                "basis": [
+                  {
+                    "palace": "父母",
+                    "branch": "戌",
+                    "empty": false,
+                    "score": 1.0,
+                    "points": 2,
+                    "items": [
+                      [
+                        "紫微 brightness 得",
+                        0.5
+                      ],
+                      [
+                        "天相 brightness 得",
+                        0.5
+                      ]
+                    ]
+                  },
+                  {
+                    "palace": "田宅",
+                    "branch": "子",
+                    "empty": false,
+                    "score": 1.0,
+                    "points": 1,
+                    "items": [
+                      [
+                        "七杀 brightness 旺",
+                        1.0
+                      ]
+                    ]
+                  }
+                ]
+              },
+              "mapping_rule": "ZW-P1"
+            }
+          ]
+        }
+      },
+      "component_projections": {
+        "ziwei": {
+          "domain": "D5",
+          "system": "ziwei",
+          "cluster": "sinic",
+          "prominence": "high",
+          "polarity": "supportive",
+          "score": 2.0,
+          "confidence": "medium",
+          "basis": [
+            {
+              "palace": "父母",
+              "branch": "酉",
+              "empty": false,
+              "score": 3.0,
+              "points": 3,
+              "items": [
+                [
+                  "天机 brightness 旺",
+                  1.0
+                ],
+                [
+                  "巨门 brightness 庙",
+                  1.0
+                ],
+                [
+                  "巨门 化禄",
+                  1.0
+                ]
+              ]
+            },
+            {
+              "palace": "田宅",
+              "branch": "亥",
+              "empty": false,
+              "score": -1.0,
+              "points": 1,
+              "items": [
+                [
+                  "天梁 brightness 陷",
+                  -1.0
+                ]
+              ]
+            }
+          ],
+          "alt_leap_school": {
+            "silent": false,
+            "prominence": "high",
+            "polarity": "supportive",
+            "score": 2.0,
+            "basis": [
+              {
+                "palace": "父母",
+                "branch": "戌",
+                "empty": false,
+                "score": 1.0,
+                "points": 2,
+                "items": [
+                  [
+                    "紫微 brightness 得",
+                    0.5
+                  ],
+                  [
+                    "天相 brightness 得",
+                    0.5
+                  ]
+                ]
+              },
+              {
+                "palace": "田宅",
+                "branch": "子",
+                "empty": false,
+                "score": 1.0,
+                "points": 1,
+                "items": [
+                  [
+                    "七杀 brightness 旺",
+                    1.0
+                  ]
+                ]
+              }
+            ]
+          },
+          "mapping_rule": "ZW-P1"
+        },
+        "bazi": null
+      }
+    },
+    "D6": {
+      "name": "Children/creation",
+      "grade": "WEAK",
+      "speaking_clusters": [
+        "jyotisha",
+        "western"
+      ],
+      "shared_polarity": null,
+      "projections": {
+        "jyotisha": {
+          "domain": "D6",
+          "system": "jyotisha",
+          "cluster": "jyotisha",
+          "prominence": "medium",
+          "polarity": "mixed",
+          "score": 0.0,
+          "confidence": "high",
+          "basis": [
+            {
+              "house": 5,
+              "sign": "Pisces",
+              "score": 0.0,
+              "points": 1.5,
+              "items": [
+                [
+                  "lord Jupiter dignity enemy_sign",
+                  -0.5
+                ],
+                [
+                  "lord Jupiter in house 7 (kendra/trikona)",
+                  0.5
+                ],
+                [
+                  "occupant Venus (natural benefic)",
+                  0.5
+                ],
+                [
+                  "Mars drishti",
+                  -0.5
+                ]
+              ],
+              "occupants": [
+                "Venus"
+              ],
+              "aspected_by": [
+                "Mars"
+              ]
+            }
+          ],
+          "mapping_rule": "JY-H1"
+        },
+        "western": {
+          "domain": "D6",
+          "system": "western",
+          "cluster": "western",
+          "prominence": "low",
+          "polarity": "challenging",
+          "score": -2.0,
+          "confidence": "high",
+          "basis": [
+            {
+              "house": 5,
+              "sign": "Pisces",
+              "score": -2.0,
+              "points": 0.0,
+              "items": [
+                [
+                  "ruler Jupiter in detriment",
+                  -1.0
+                ],
+                [
+                  "ruler Jupiter in bad place (house 8)",
+                  -0.5
+                ],
+                [
+                  "ruler Jupiter under_the_beams",
+                  -0.5
+                ]
+              ],
+              "occupants": [],
+              "lots": []
+            }
+          ],
+          "mapping_rule": "WE-H1"
+        },
+        "sinic": {
+          "domain": "D6",
+          "cluster": "sinic",
+          "prominence": "medium",
+          "polarity": "mixed",
+          "confidence": "low",
+          "components": [
+            {
+              "domain": "D6",
+              "system": "ziwei",
+              "cluster": "sinic",
+              "prominence": "medium",
+              "polarity": "supportive",
+              "score": 1.0,
+              "confidence": "low",
+              "basis": [
+                {
+                  "palace": "子女",
+                  "branch": "巳",
+                  "empty": false,
+                  "score": 1.0,
+                  "points": 1,
+                  "items": [
+                    [
+                      "天同 brightness 庙",
+                      1.0
+                    ]
+                  ]
+                }
+              ],
+              "alt_leap_school": {
+                "silent": false,
+                "prominence": "high",
+                "polarity": "supportive",
+                "score": 2.0,
+                "basis": [
+                  {
+                    "palace": "子女",
+                    "branch": "午",
+                    "empty": false,
+                    "score": 2.0,
+                    "points": 2,
+                    "items": [
+                      [
+                        "武曲 brightness 旺",
+                        1.0
+                      ],
+                      [
+                        "天府 brightness 旺",
+                        1.0
+                      ]
+                    ]
+                  }
+                ]
+              },
+              "mapping_rule": "ZW-P1"
+            },
+            {
+              "domain": "D6",
+              "system": "bazi",
+              "cluster": "sinic",
+              "prominence": "low",
+              "polarity": "challenging",
+              "weight_sum": 0.5,
+              "confidence": "low",
+              "basis": [
+                {
+                  "position": "day_hidden_1",
+                  "stem": "乙",
+                  "ten_god": "伤官",
+                  "en": "Hurting Officer",
+                  "weight": 0.5,
+                  "element": "Wood"
+                }
+              ],
+              "element_basis": {
+                "Wood": "challenging"
+              },
+              "mapping_rule": "BZ-T1"
+            }
+          ],
+          "note": "only low-confidence components"
+        }
+      },
+      "component_projections": {
+        "ziwei": {
+          "domain": "D6",
+          "system": "ziwei",
+          "cluster": "sinic",
+          "prominence": "medium",
+          "polarity": "supportive",
+          "score": 1.0,
+          "confidence": "low",
+          "basis": [
+            {
+              "palace": "子女",
+              "branch": "巳",
+              "empty": false,
+              "score": 1.0,
+              "points": 1,
+              "items": [
+                [
+                  "天同 brightness 庙",
+                  1.0
+                ]
+              ]
+            }
+          ],
+          "alt_leap_school": {
+            "silent": false,
+            "prominence": "high",
+            "polarity": "supportive",
+            "score": 2.0,
+            "basis": [
+              {
+                "palace": "子女",
+                "branch": "午",
+                "empty": false,
+                "score": 2.0,
+                "points": 2,
+                "items": [
+                  [
+                    "武曲 brightness 旺",
+                    1.0
+                  ],
+                  [
+                    "天府 brightness 旺",
+                    1.0
+                  ]
+                ]
+              }
+            ]
+          },
+          "mapping_rule": "ZW-P1"
+        },
+        "bazi": {
+          "domain": "D6",
+          "system": "bazi",
+          "cluster": "sinic",
+          "prominence": "low",
+          "polarity": "challenging",
+          "weight_sum": 0.5,
+          "confidence": "low",
+          "basis": [
+            {
+              "position": "day_hidden_1",
+              "stem": "乙",
+              "ten_god": "伤官",
+              "en": "Hurting Officer",
+              "weight": 0.5,
+              "element": "Wood"
+            }
+          ],
+          "element_basis": {
+            "Wood": "challenging"
+          },
+          "mapping_rule": "BZ-T1"
+        }
+      }
+    },
+    "D7": {
+      "name": "Health/routine",
+      "grade": "WEAK",
+      "speaking_clusters": [
+        "western"
+      ],
+      "shared_polarity": null,
+      "projections": {
+        "jyotisha": {
+          "domain": "D7",
+          "system": "jyotisha",
+          "cluster": "jyotisha",
+          "prominence": "low",
+          "polarity": "mixed",
+          "score": 0.5,
+          "confidence": "high",
+          "basis": [
+            {
+              "house": 6,
+              "sign": "Aries",
+              "score": 0.5,
+              "points": 0.0,
+              "items": [
+                [
+                  "lord Mars dignity friend_sign",
+                  0.5
+                ]
+              ],
+              "occupants": [],
+              "aspected_by": []
+            }
+          ],
+          "mapping_rule": "JY-H1"
+        },
+        "western": {
+          "domain": "D7",
+          "system": "western",
+          "cluster": "western",
+          "prominence": "medium",
+          "polarity": "supportive",
+          "score": 1.0,
+          "confidence": "high",
+          "basis": [
+            {
+              "house": 6,
+              "sign": "Aries",
+              "score": 1.0,
+              "points": 1.0,
+              "items": [
+                [
+                  "ruler Mars in good place (house 2)",
+                  0.5
+                ],
+                [
+                  "occupant Venus contrary benefic",
+                  0.5
+                ]
+              ],
+              "occupants": [
+                "Venus"
+              ],
+              "lots": []
+            }
+          ],
+          "mapping_rule": "WE-H1"
+        }
+      },
+      "component_projections": {
+        "ziwei": null,
+        "bazi": null
+      }
+    },
+    "D8": {
+      "name": "Mind/education/craft",
+      "grade": "DIVERGENT",
+      "speaking_clusters": [
+        "jyotisha",
+        "sinic",
+        "western"
+      ],
+      "shared_polarity": null,
+      "projections": {
+        "jyotisha": {
+          "domain": "D8",
+          "system": "jyotisha",
+          "cluster": "jyotisha",
+          "prominence": "low",
+          "polarity": "supportive",
+          "score": 1.0,
+          "confidence": "high",
+          "basis": [
+            {
+              "house": 3,
+              "sign": "Capricorn",
+              "score": 1.0,
+              "points": 0.5,
+              "items": [
+                [
+                  "lord Saturn dignity friend_sign",
+                  0.5
+                ],
+                [
+                  "lord Saturn in house 7 (kendra/trikona)",
+                  0.5
+                ],
+                [
+                  "lord Saturn combust",
+                  -0.5
+                ],
+                [
+                  "Jupiter drishti",
+                  0.5
+                ]
+              ],
+              "occupants": [],
+              "aspected_by": [
+                "Jupiter"
+              ]
+            }
+          ],
+          "mapping_rule": "JY-H1"
+        },
+        "western": {
+          "domain": "D8",
+          "system": "western",
+          "cluster": "western",
+          "prominence": "low",
+          "polarity": "challenging",
+          "score": -1.0,
+          "confidence": "high",
+          "basis": [
+            {
+              "house": 3,
+              "sign": "Capricorn",
+              "score": -1.0,
+              "points": 0.0,
+              "items": [
+                [
+                  "ruler Saturn in bad place (house 8)",
+                  -0.5
+                ],
+                [
+                  "ruler Saturn combust",
+                  -0.5
+                ]
+              ],
+              "occupants": [],
+              "lots": []
+            }
+          ],
+          "mapping_rule": "WE-H1"
+        },
+        "sinic": {
+          "domain": "D8",
+          "cluster": "sinic",
+          "prominence": "high",
+          "polarity": "supportive",
+          "confidence": "medium",
+          "internal_corroboration": false,
+          "internal_disagreement": false,
+          "components": [
+            {
+              "domain": "D8",
+              "system": "bazi",
+              "cluster": "sinic",
+              "prominence": "high",
+              "polarity": "supportive",
+              "weight_sum": 2.6,
+              "confidence": "medium",
+              "basis": [
+                {
+                  "position": "year_stem",
+                  "stem": "辛",
+                  "ten_god": "正印",
+                  "en": "Direct Resource",
+                  "weight": 1.0,
+                  "element": "Metal"
+                },
+                {
+                  "position": "year_hidden_2",
+                  "stem": "庚",
+                  "ten_god": "偏印",
+                  "en": "Indirect Resource",
+                  "weight": 0.3,
+                  "element": "Metal"
+                },
+                {
+                  "position": "month_hidden_2",
+                  "stem": "庚",
+                  "ten_god": "偏印",
+                  "en": "Indirect Resource",
+                  "weight": 0.3,
+                  "element": "Metal"
+                },
+                {
+                  "position": "hour_hidden_0",
+                  "stem": "辛",
+                  "ten_god": "正印",
+                  "en": "Direct Resource",
+                  "weight": 1.0,
+                  "element": "Metal"
+                }
+              ],
+              "element_basis": {
+                "Metal": "supportive"
+              },
+              "mapping_rule": "BZ-T1"
+            }
+          ]
+        }
+      },
+      "component_projections": {
+        "ziwei": null,
+        "bazi": {
+          "domain": "D8",
+          "system": "bazi",
+          "cluster": "sinic",
+          "prominence": "high",
+          "polarity": "supportive",
+          "weight_sum": 2.6,
+          "confidence": "medium",
+          "basis": [
+            {
+              "position": "year_stem",
+              "stem": "辛",
+              "ten_god": "正印",
+              "en": "Direct Resource",
+              "weight": 1.0,
+              "element": "Metal"
+            },
+            {
+              "position": "year_hidden_2",
+              "stem": "庚",
+              "ten_god": "偏印",
+              "en": "Indirect Resource",
+              "weight": 0.3,
+              "element": "Metal"
+            },
+            {
+              "position": "month_hidden_2",
+              "stem": "庚",
+              "ten_god": "偏印",
+              "en": "Indirect Resource",
+              "weight": 0.3,
+              "element": "Metal"
+            },
+            {
+              "position": "hour_hidden_0",
+              "stem": "辛",
+              "ten_god": "正印",
+              "en": "Direct Resource",
+              "weight": 1.0,
+              "element": "Metal"
+            }
+          ],
+          "element_basis": {
+            "Metal": "supportive"
+          },
+          "mapping_rule": "BZ-T1"
+        }
+      }
+    },
+    "D9": {
+      "name": "Fortune/spirituality/worldview",
+      "grade": "WEAK",
+      "speaking_clusters": [
+        "jyotisha"
+      ],
+      "shared_polarity": null,
+      "projections": {
+        "jyotisha": {
+          "domain": "D9",
+          "system": "jyotisha",
+          "cluster": "jyotisha",
+          "prominence": "medium",
+          "polarity": "supportive",
+          "score": 1.5,
+          "confidence": "high",
+          "basis": [
+            {
+              "house": 9,
+              "sign": "Cancer",
+              "score": 0.0,
+              "points": 1.0,
+              "items": [
+                [
+                  "lord Moon dignity friend_sign",
+                  0.5
+                ],
+                [
+                  "lord Moon in house 10 (kendra/trikona)",
+                  0.5
+                ],
+                [
+                  "Mars drishti",
+                  -0.5
+                ],
+                [
+                  "Saturn drishti",
+                  -0.5
+                ]
+              ],
+              "occupants": [],
+              "aspected_by": [
+                "Mars",
+                "Saturn"
+              ]
+            },
+            {
+              "house": 12,
+              "sign": "Libra",
+              "score": 1.5,
+              "points": 0.0,
+              "items": [
+                [
+                  "lord Venus dignity exalted",
+                  1.0
+                ],
+                [
+                  "lord Venus in house 5 (kendra/trikona)",
+                  0.5
+                ]
+              ],
+              "occupants": [],
+              "aspected_by": []
+            }
+          ],
+          "mapping_rule": "JY-H1"
+        },
+        "western": {
+          "domain": "D9",
+          "system": "western",
+          "cluster": "western",
+          "prominence": "low",
+          "polarity": "mixed",
+          "score": 0.5,
+          "confidence": "high",
+          "basis": [
+            {
+              "house": 9,
+              "sign": "Cancer",
+              "score": 0.5,
+              "points": 0.0,
+              "items": [
+                [
+                  "ruler Moon in good place (house 11)",
+                  0.5
+                ]
+              ],
+              "occupants": [],
+              "lots": []
+            }
+          ],
+          "mapping_rule": "WE-H1"
+        },
+        "sinic": {
+          "domain": "D9",
+          "cluster": "sinic",
+          "prominence": "high",
+          "polarity": "mixed",
+          "confidence": "low",
+          "components": [
+            {
+              "domain": "D9",
+              "system": "ziwei",
+              "cluster": "sinic",
+              "prominence": "high",
+              "polarity": "supportive",
+              "score": 1.0,
+              "confidence": "low",
+              "basis": [
+                {
+                  "palace": "福德",
+                  "branch": "戌",
+                  "empty": false,
+                  "score": 1.0,
+                  "points": 2,
+                  "items": [
+                    [
+                      "紫微 brightness 得",
+                      0.5
+                    ],
+                    [
+                      "天相 brightness 得",
+                      0.5
+                    ]
+                  ]
+                }
+              ],
+              "alt_leap_school": {
+                "silent": false,
+                "prominence": "medium",
+                "polarity": "challenging",
+                "score": -1.0,
+                "basis": [
+                  {
+                    "palace": "福德",
+                    "branch": "亥",
+                    "empty": false,
+                    "score": -1.0,
+                    "points": 1,
+                    "items": [
+                      [
+                        "天梁 brightness 陷",
+                        -1.0
+                      ]
+                    ]
+                  }
+                ]
+              },
+              "mapping_rule": "ZW-P1"
+            }
+          ],
+          "note": "only low-confidence components"
+        }
+      },
+      "component_projections": {
+        "ziwei": {
+          "domain": "D9",
+          "system": "ziwei",
+          "cluster": "sinic",
+          "prominence": "high",
+          "polarity": "supportive",
+          "score": 1.0,
+          "confidence": "low",
+          "basis": [
+            {
+              "palace": "福德",
+              "branch": "戌",
+              "empty": false,
+              "score": 1.0,
+              "points": 2,
+              "items": [
+                [
+                  "紫微 brightness 得",
+                  0.5
+                ],
+                [
+                  "天相 brightness 得",
+                  0.5
+                ]
+              ]
+            }
+          ],
+          "alt_leap_school": {
+            "silent": false,
+            "prominence": "medium",
+            "polarity": "challenging",
+            "score": -1.0,
+            "basis": [
+              {
+                "palace": "福德",
+                "branch": "亥",
+                "empty": false,
+                "score": -1.0,
+                "points": 1,
+                "items": [
+                  [
+                    "天梁 brightness 陷",
+                    -1.0
+                  ]
+                ]
+              }
+            ]
+          },
+          "mapping_rule": "ZW-P1"
+        },
+        "bazi": null
+      }
+    }
+  },
+  "temperament": {
+    "T1": {
+      "axis": "Leadership/visibility",
+      "rule": {
+        "jyotisha": "Sun in kendra or Sun exalted/own/moolatrikona",
+        "western": "Sun angular or in domicile/exaltation",
+        "sinic": "紫微/太阳/天府 in Ming palace (both leap schools) OR Officer/Seven Killings as a visible stem"
+      },
+      "jyotisha": {
+        "indicated": true,
+        "basis": "Sun: house 7, enemy_sign"
+      },
+      "western": {
+        "indicated": false,
+        "basis": "Sun: house 8 (succedent), peregrine"
+      },
+      "sinic": {
+        "indicated": true,
+        "basis": "Ming stars primary ['贪狼'], alt-school ['天机', '巨门']; visible stem gods ['正印', '劫财', '正官']"
+      },
+      "clusters_indicating": [
+        "jyotisha",
+        "sinic"
+      ],
+      "count": 2
+    },
+    "T2": {
+      "axis": "Drive/initiative",
+      "rule": {
+        "jyotisha": "Mars in kendra or Mars exalted/own/moolatrikona",
+        "western": "Mars angular or in domicile/exaltation",
+        "sinic": "七杀/破军/贪狼 in Ming palace (both schools) OR Seven Killings/Rob Wealth as a visible stem"
+      },
+      "jyotisha": {
+        "indicated": false,
+        "basis": "Mars: house 2, friend_sign"
+      },
+      "western": {
+        "indicated": false,
+        "basis": "Mars: house 2 (succedent), minor_dignity_only"
+      },
+      "sinic": {
+        "indicated": true,
+        "basis": "Ming stars primary ['贪狼'], alt-school ['天机', '巨门']; visible stem gods ['正印', '劫财', '正官']"
+      },
+      "clusters_indicating": [
+        "sinic"
+      ],
+      "count": 1
+    },
+    "T3": {
+      "axis": "Nurturing/service",
+      "rule": {
+        "jyotisha": "Moon in kendra or Moon exalted/own/moolatrikona",
+        "western": "Moon angular or in domicile/exaltation",
+        "sinic": "天同/太阴/天梁 in Ming palace (both schools) OR Resource as a visible stem"
+      },
+      "jyotisha": {
+        "indicated": true,
+        "basis": "Moon: house 10, friend_sign"
+      },
+      "western": {
+        "indicated": false,
+        "basis": "Moon: house 11 (succedent), peregrine"
+      },
+      "sinic": {
+        "indicated": true,
+        "basis": "Ming stars primary ['贪狼'], alt-school ['天机', '巨门']; visible stem gods ['正印', '劫财', '正官']"
+      },
+      "clusters_indicating": [
+        "jyotisha",
+        "sinic"
+      ],
+      "count": 2
+    },
+    "T4": {
+      "axis": "Intellect/craft",
+      "rule": {
+        "jyotisha": "Mercury in own/exalted/moolatrikona sign and not combust",
+        "western": "Mercury in domicile/exaltation and free of beams",
+        "sinic": "天机 in Ming (both schools) OR Eating God/Hurting Officer as a visible stem"
+      },
+      "jyotisha": {
+        "indicated": true,
+        "basis": "Mercury own, combust=False"
+      },
+      "western": {
+        "indicated": true,
+        "basis": "Mercury domicile, free_of_beams"
+      },
+      "sinic": {
+        "indicated": false,
+        "basis": "Ming stars primary ['贪狼'], alt-school ['天机', '巨门']; visible stem gods ['正印', '劫财', '正官']"
+      },
+      "clusters_indicating": [
+        "jyotisha",
+        "western"
+      ],
+      "count": 2
+    },
+    "T5": {
+      "axis": "Adaptability",
+      "rule": {
+        "jyotisha": "Lagna in a dual sign",
+        "western": "Ascendant in a mutable sign",
+        "sinic": "天机/贪狼 in Ming (both schools) OR Ming branch in 寅申巳亥 (both schools)"
+      },
+      "jyotisha": {
+        "indicated": false,
+        "basis": "Lagna Scorpio"
+      },
+      "western": {
+        "indicated": false,
+        "basis": "Asc Scorpio"
+      },
+      "sinic": {
+        "indicated": true,
+        "basis": "Ming primary 申 ['贪狼'], alt 酉 ['天机', '巨门']"
+      },
+      "clusters_indicating": [
+        "sinic"
+      ],
+      "count": 1
+    },
+    "T6": {
+      "axis": "Discipline/structure",
+      "rule": {
+        "jyotisha": "Saturn in kendra or Saturn exalted/own/moolatrikona",
+        "western": "Saturn angular or in domicile/exaltation",
+        "sinic": "天府/武曲/天梁 in Ming (both schools) OR Direct Officer as a visible stem"
+      },
+      "jyotisha": {
+        "indicated": true,
+        "basis": "Saturn: house 7, friend_sign"
+      },
+      "western": {
+        "indicated": false,
+        "basis": "Saturn: house 8 (succedent), minor_dignity_only"
+      },
+      "sinic": {
+        "indicated": true,
+        "basis": "Ming stars primary ['贪狼'], alt-school ['天机', '巨门']; visible stem gods ['正印', '劫财', '正官']"
+      },
+      "clusters_indicating": [
+        "jyotisha",
+        "sinic"
+      ],
+      "count": 2
+    }
+  },
+  "chronology": {
+    "horizon": [
+      "2026-11-09",
+      "2036-11-09"
+    ],
+    "segments": [
+      {
+        "start": "2026-11-09",
+        "end": "2027-02-04",
+        "jyotisha": {
+          "mahadasha": "Sun",
+          "antardasha": "Saturn",
+          "houses": [
+            3,
+            4,
+            7
+          ],
+          "domains": [
+            "D4",
+            "D5",
+            "D8"
+          ]
+        },
+        "western": {
+          "age": 25,
+          "profected_house": 2,
+          "lord_of_year": "Jupiter",
+          "lord_natal_house": 8,
+          "domains": [
+            "D3"
+          ]
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "丙午",
+            "stem_ten_god": "偏财"
+          },
+          "ziwei_yearly": {
+            "branch": "午",
+            "palace_primary": "夫妻",
+            "palace_alt_leap_school": "子女",
+            "used": []
+          },
+          "domains": [
+            "D3",
+            "D4"
+          ]
+        },
+        "convergences": {
+          "D3": {
+            "clusters": [
+              "western",
+              "sinic"
+            ],
+            "grade": "moderate"
+          },
+          "D4": {
+            "clusters": [
+              "jyotisha",
+              "sinic"
+            ],
+            "grade": "moderate"
+          }
+        }
+      },
+      {
+        "start": "2027-02-04",
+        "end": "2027-02-06",
+        "jyotisha": {
+          "mahadasha": "Sun",
+          "antardasha": "Saturn",
+          "houses": [
+            3,
+            4,
+            7
+          ],
+          "domains": [
+            "D4",
+            "D5",
+            "D8"
+          ]
+        },
+        "western": {
+          "age": 25,
+          "profected_house": 2,
+          "lord_of_year": "Jupiter",
+          "lord_natal_house": 8,
+          "domains": [
+            "D3"
+          ]
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "丁未",
+            "stem_ten_god": "正财"
+          },
+          "ziwei_yearly": {
+            "branch": "午",
+            "palace_primary": "夫妻",
+            "palace_alt_leap_school": "子女",
+            "used": []
+          },
+          "domains": [
+            "D3",
+            "D4"
+          ]
+        },
+        "convergences": {
+          "D3": {
+            "clusters": [
+              "western",
+              "sinic"
+            ],
+            "grade": "moderate"
+          },
+          "D4": {
+            "clusters": [
+              "jyotisha",
+              "sinic"
+            ],
+            "grade": "moderate"
+          }
+        }
+      },
+      {
+        "start": "2027-02-06",
+        "end": "2027-05-17",
+        "jyotisha": {
+          "mahadasha": "Sun",
+          "antardasha": "Saturn",
+          "houses": [
+            3,
+            4,
+            7
+          ],
+          "domains": [
+            "D4",
+            "D5",
+            "D8"
+          ]
+        },
+        "western": {
+          "age": 25,
+          "profected_house": 2,
+          "lord_of_year": "Jupiter",
+          "lord_natal_house": 8,
+          "domains": [
+            "D3"
+          ]
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "丁未",
+            "stem_ten_god": "正财"
+          },
+          "ziwei_yearly": {
+            "branch": "未",
+            "palace_primary": "兄弟",
+            "palace_alt_leap_school": "夫妻",
+            "used": []
+          },
+          "domains": [
+            "D3",
+            "D4"
+          ]
+        },
+        "convergences": {
+          "D3": {
+            "clusters": [
+              "western",
+              "sinic"
+            ],
+            "grade": "moderate"
+          },
+          "D4": {
+            "clusters": [
+              "jyotisha",
+              "sinic"
+            ],
+            "grade": "moderate"
+          }
+        }
+      },
+      {
+        "start": "2027-05-17",
+        "end": "2027-05-29",
+        "jyotisha": {
+          "mahadasha": "Sun",
+          "antardasha": "Mercury",
+          "houses": [
+            8,
+            11
+          ],
+          "domains": [
+            "D3"
+          ]
+        },
+        "western": {
+          "age": 25,
+          "profected_house": 2,
+          "lord_of_year": "Jupiter",
+          "lord_natal_house": 8,
+          "domains": [
+            "D3"
+          ]
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "丁未",
+            "stem_ten_god": "正财"
+          },
+          "ziwei_yearly": {
+            "branch": "未",
+            "palace_primary": "兄弟",
+            "palace_alt_leap_school": "夫妻",
+            "used": []
+          },
+          "domains": [
+            "D3",
+            "D4"
+          ]
+        },
+        "convergences": {
+          "D3": {
+            "clusters": [
+              "jyotisha",
+              "western",
+              "sinic"
+            ],
+            "grade": "strong"
+          }
+        }
+      },
+      {
+        "start": "2027-05-29",
+        "end": "2028-01-26",
+        "jyotisha": {
+          "mahadasha": "Sun",
+          "antardasha": "Mercury",
+          "houses": [
+            8,
+            11
+          ],
+          "domains": [
+            "D3"
+          ]
+        },
+        "western": {
+          "age": 26,
+          "profected_house": 3,
+          "lord_of_year": "Saturn",
+          "lord_natal_house": 8,
+          "domains": [
+            "D8"
+          ]
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "丁未",
+            "stem_ten_god": "正财"
+          },
+          "ziwei_yearly": {
+            "branch": "未",
+            "palace_primary": "兄弟",
+            "palace_alt_leap_school": "夫妻",
+            "used": []
+          },
+          "domains": [
+            "D3",
+            "D4"
+          ]
+        },
+        "convergences": {
+          "D3": {
+            "clusters": [
+              "jyotisha",
+              "sinic"
+            ],
+            "grade": "moderate"
+          }
+        }
+      },
+      {
+        "start": "2028-01-26",
+        "end": "2028-02-04",
+        "jyotisha": {
+          "mahadasha": "Sun",
+          "antardasha": "Mercury",
+          "houses": [
+            8,
+            11
+          ],
+          "domains": [
+            "D3"
+          ]
+        },
+        "western": {
+          "age": 26,
+          "profected_house": 3,
+          "lord_of_year": "Saturn",
+          "lord_natal_house": 8,
+          "domains": [
+            "D8"
+          ]
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "丁未",
+            "stem_ten_god": "正财"
+          },
+          "ziwei_yearly": {
+            "branch": "申",
+            "palace_primary": "命宫",
+            "palace_alt_leap_school": "兄弟",
+            "used": []
+          },
+          "domains": [
+            "D3",
+            "D4"
+          ]
+        },
+        "convergences": {
+          "D3": {
+            "clusters": [
+              "jyotisha",
+              "sinic"
+            ],
+            "grade": "moderate"
+          }
+        }
+      },
+      {
+        "start": "2028-02-04",
+        "end": "2028-03-23",
+        "jyotisha": {
+          "mahadasha": "Sun",
+          "antardasha": "Mercury",
+          "houses": [
+            8,
+            11
+          ],
+          "domains": [
+            "D3"
+          ]
+        },
+        "western": {
+          "age": 26,
+          "profected_house": 3,
+          "lord_of_year": "Saturn",
+          "lord_natal_house": 8,
+          "domains": [
+            "D8"
+          ]
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "戊申",
+            "stem_ten_god": "七杀"
+          },
+          "ziwei_yearly": {
+            "branch": "申",
+            "palace_primary": "命宫",
+            "palace_alt_leap_school": "兄弟",
+            "used": []
+          },
+          "domains": [
+            "D2"
+          ]
+        },
+        "convergences": {}
+      },
+      {
+        "start": "2028-03-23",
+        "end": "2028-05-29",
+        "jyotisha": {
+          "mahadasha": "Sun",
+          "antardasha": "Ketu",
+          "houses": [
+            2
+          ],
+          "domains": [
+            "D3"
+          ]
+        },
+        "western": {
+          "age": 26,
+          "profected_house": 3,
+          "lord_of_year": "Saturn",
+          "lord_natal_house": 8,
+          "domains": [
+            "D8"
+          ]
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "戊申",
+            "stem_ten_god": "七杀"
+          },
+          "ziwei_yearly": {
+            "branch": "申",
+            "palace_primary": "命宫",
+            "palace_alt_leap_school": "兄弟",
+            "used": []
+          },
+          "domains": [
+            "D2"
+          ]
+        },
+        "convergences": {}
+      },
+      {
+        "start": "2028-05-29",
+        "end": "2028-07-28",
+        "jyotisha": {
+          "mahadasha": "Sun",
+          "antardasha": "Ketu",
+          "houses": [
+            2
+          ],
+          "domains": [
+            "D3"
+          ]
+        },
+        "western": {
+          "age": 27,
+          "profected_house": 4,
+          "lord_of_year": "Saturn",
+          "lord_natal_house": 8,
+          "domains": [
+            "D5"
+          ]
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "戊申",
+            "stem_ten_god": "七杀"
+          },
+          "ziwei_yearly": {
+            "branch": "申",
+            "palace_primary": "命宫",
+            "palace_alt_leap_school": "兄弟",
+            "used": []
+          },
+          "domains": [
+            "D2"
+          ]
+        },
+        "convergences": {}
+      },
+      {
+        "start": "2028-07-28",
+        "end": "2029-02-03",
+        "jyotisha": {
+          "mahadasha": "Sun",
+          "antardasha": "Venus",
+          "houses": [
+            5,
+            7,
+            12
+          ],
+          "domains": [
+            "D4",
+            "D6",
+            "D9"
+          ]
+        },
+        "western": {
+          "age": 27,
+          "profected_house": 4,
+          "lord_of_year": "Saturn",
+          "lord_natal_house": 8,
+          "domains": [
+            "D5"
+          ]
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "戊申",
+            "stem_ten_god": "七杀"
+          },
+          "ziwei_yearly": {
+            "branch": "申",
+            "palace_primary": "命宫",
+            "palace_alt_leap_school": "兄弟",
+            "used": []
+          },
+          "domains": [
+            "D2"
+          ]
+        },
+        "convergences": {}
+      },
+      {
+        "start": "2029-02-03",
+        "end": "2029-02-13",
+        "jyotisha": {
+          "mahadasha": "Sun",
+          "antardasha": "Venus",
+          "houses": [
+            5,
+            7,
+            12
+          ],
+          "domains": [
+            "D4",
+            "D6",
+            "D9"
+          ]
+        },
+        "western": {
+          "age": 27,
+          "profected_house": 4,
+          "lord_of_year": "Saturn",
+          "lord_natal_house": 8,
+          "domains": [
+            "D5"
+          ]
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "己酉",
+            "stem_ten_god": "正官"
+          },
+          "ziwei_yearly": {
+            "branch": "申",
+            "palace_primary": "命宫",
+            "palace_alt_leap_school": "兄弟",
+            "used": []
+          },
+          "domains": [
+            "D2"
+          ]
+        },
+        "convergences": {}
+      },
+      {
+        "start": "2029-02-13",
+        "end": "2029-05-29",
+        "jyotisha": {
+          "mahadasha": "Sun",
+          "antardasha": "Venus",
+          "houses": [
+            5,
+            7,
+            12
+          ],
+          "domains": [
+            "D4",
+            "D6",
+            "D9"
+          ]
+        },
+        "western": {
+          "age": 27,
+          "profected_house": 4,
+          "lord_of_year": "Saturn",
+          "lord_natal_house": 8,
+          "domains": [
+            "D5"
+          ]
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "己酉",
+            "stem_ten_god": "正官"
+          },
+          "ziwei_yearly": {
+            "branch": "酉",
+            "palace_primary": "父母",
+            "palace_alt_leap_school": "命宫",
+            "used": []
+          },
+          "domains": [
+            "D2"
+          ]
+        },
+        "convergences": {}
+      },
+      {
+        "start": "2029-05-29",
+        "end": "2029-07-29",
+        "jyotisha": {
+          "mahadasha": "Sun",
+          "antardasha": "Venus",
+          "houses": [
+            5,
+            7,
+            12
+          ],
+          "domains": [
+            "D4",
+            "D6",
+            "D9"
+          ]
+        },
+        "western": {
+          "age": 28,
+          "profected_house": 5,
+          "lord_of_year": "Jupiter",
+          "lord_natal_house": 8,
+          "domains": [
+            "D6"
+          ]
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "己酉",
+            "stem_ten_god": "正官"
+          },
+          "ziwei_yearly": {
+            "branch": "酉",
+            "palace_primary": "父母",
+            "palace_alt_leap_school": "命宫",
+            "used": []
+          },
+          "domains": [
+            "D2"
+          ]
+        },
+        "convergences": {
+          "D6": {
+            "clusters": [
+              "jyotisha",
+              "western"
+            ],
+            "grade": "moderate"
+          }
+        }
+      },
+      {
+        "start": "2029-07-29",
+        "end": "2030-02-03",
+        "jyotisha": {
+          "mahadasha": "Moon",
+          "antardasha": "Moon",
+          "houses": [
+            9,
+            10
+          ],
+          "domains": [
+            "D2",
+            "D9"
+          ]
+        },
+        "western": {
+          "age": 28,
+          "profected_house": 5,
+          "lord_of_year": "Jupiter",
+          "lord_natal_house": 8,
+          "domains": [
+            "D6"
+          ]
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "己酉",
+            "stem_ten_god": "正官"
+          },
+          "ziwei_yearly": {
+            "branch": "酉",
+            "palace_primary": "父母",
+            "palace_alt_leap_school": "命宫",
+            "used": []
+          },
+          "domains": [
+            "D2"
+          ]
+        },
+        "convergences": {
+          "D2": {
+            "clusters": [
+              "jyotisha",
+              "sinic"
+            ],
+            "grade": "moderate"
+          }
+        }
+      },
+      {
+        "start": "2030-02-03",
+        "end": "2030-05-29",
+        "jyotisha": {
+          "mahadasha": "Moon",
+          "antardasha": "Moon",
+          "houses": [
+            9,
+            10
+          ],
+          "domains": [
+            "D2",
+            "D9"
+          ]
+        },
+        "western": {
+          "age": 28,
+          "profected_house": 5,
+          "lord_of_year": "Jupiter",
+          "lord_natal_house": 8,
+          "domains": [
+            "D6"
+          ]
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "庚戌",
+            "stem_ten_god": "偏印"
+          },
+          "ziwei_yearly": {
+            "branch": "戌",
+            "palace_primary": "福德",
+            "palace_alt_leap_school": "父母",
+            "used": []
+          },
+          "domains": [
+            "D8"
+          ]
+        },
+        "convergences": {}
+      },
+      {
+        "start": "2030-05-29",
+        "end": "2030-12-28",
+        "jyotisha": {
+          "mahadasha": "Moon",
+          "antardasha": "Mars",
+          "houses": [
+            1,
+            2,
+            6
+          ],
+          "domains": [
+            "D1",
+            "D3",
+            "D7"
+          ]
+        },
+        "western": {
+          "age": 29,
+          "profected_house": 6,
+          "lord_of_year": "Mars",
+          "lord_natal_house": 2,
+          "domains": [
+            "D3",
+            "D7"
+          ]
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "庚戌",
+            "stem_ten_god": "偏印"
+          },
+          "ziwei_yearly": {
+            "branch": "戌",
+            "palace_primary": "福德",
+            "palace_alt_leap_school": "父母",
+            "used": []
+          },
+          "domains": [
+            "D8"
+          ]
+        },
+        "convergences": {
+          "D3": {
+            "clusters": [
+              "jyotisha",
+              "western"
+            ],
+            "grade": "moderate"
+          },
+          "D7": {
+            "clusters": [
+              "jyotisha",
+              "western"
+            ],
+            "grade": "moderate"
+          }
+        }
+      },
+      {
+        "start": "2030-12-28",
+        "end": "2031-01-23",
+        "jyotisha": {
+          "mahadasha": "Moon",
+          "antardasha": "Rahu",
+          "houses": [
+            8
+          ],
+          "domains": []
+        },
+        "western": {
+          "age": 29,
+          "profected_house": 6,
+          "lord_of_year": "Mars",
+          "lord_natal_house": 2,
+          "domains": [
+            "D3",
+            "D7"
+          ]
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "庚戌",
+            "stem_ten_god": "偏印"
+          },
+          "ziwei_yearly": {
+            "branch": "戌",
+            "palace_primary": "福德",
+            "palace_alt_leap_school": "父母",
+            "used": []
+          },
+          "domains": [
+            "D8"
+          ]
+        },
+        "convergences": {}
+      },
+      {
+        "start": "2031-01-23",
+        "end": "2031-02-04",
+        "jyotisha": {
+          "mahadasha": "Moon",
+          "antardasha": "Rahu",
+          "houses": [
+            8
+          ],
+          "domains": []
+        },
+        "western": {
+          "age": 29,
+          "profected_house": 6,
+          "lord_of_year": "Mars",
+          "lord_natal_house": 2,
+          "domains": [
+            "D3",
+            "D7"
+          ]
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "庚戌",
+            "stem_ten_god": "偏印"
+          },
+          "ziwei_yearly": {
+            "branch": "亥",
+            "palace_primary": "田宅",
+            "palace_alt_leap_school": "福德",
+            "used": []
+          },
+          "domains": [
+            "D8"
+          ]
+        },
+        "convergences": {}
+      },
+      {
+        "start": "2031-02-04",
+        "end": "2031-05-29",
+        "jyotisha": {
+          "mahadasha": "Moon",
+          "antardasha": "Rahu",
+          "houses": [
+            8
+          ],
+          "domains": []
+        },
+        "western": {
+          "age": 29,
+          "profected_house": 6,
+          "lord_of_year": "Mars",
+          "lord_natal_house": 2,
+          "domains": [
+            "D3",
+            "D7"
+          ]
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "辛亥",
+            "stem_ten_god": "正印"
+          },
+          "ziwei_yearly": {
+            "branch": "亥",
+            "palace_primary": "田宅",
+            "palace_alt_leap_school": "福德",
+            "used": []
+          },
+          "domains": [
+            "D8"
+          ]
+        },
+        "convergences": {}
+      },
+      {
+        "start": "2031-05-29",
+        "end": "2032-02-04",
+        "jyotisha": {
+          "mahadasha": "Moon",
+          "antardasha": "Rahu",
+          "houses": [
+            8
+          ],
+          "domains": []
+        },
+        "western": {
+          "age": 30,
+          "profected_house": 7,
+          "lord_of_year": "Venus",
+          "lord_natal_house": 6,
+          "domains": [
+            "D4",
+            "D7"
+          ]
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "辛亥",
+            "stem_ten_god": "正印"
+          },
+          "ziwei_yearly": {
+            "branch": "亥",
+            "palace_primary": "田宅",
+            "palace_alt_leap_school": "福德",
+            "used": []
+          },
+          "domains": [
+            "D8"
+          ]
+        },
+        "convergences": {}
+      },
+      {
+        "start": "2032-02-04",
+        "end": "2032-02-11",
+        "jyotisha": {
+          "mahadasha": "Moon",
+          "antardasha": "Rahu",
+          "houses": [
+            8
+          ],
+          "domains": []
+        },
+        "western": {
+          "age": 30,
+          "profected_house": 7,
+          "lord_of_year": "Venus",
+          "lord_natal_house": 6,
+          "domains": [
+            "D4",
+            "D7"
+          ]
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "壬子",
+            "stem_ten_god": "比肩"
+          },
+          "ziwei_yearly": {
+            "branch": "亥",
+            "palace_primary": "田宅",
+            "palace_alt_leap_school": "福德",
+            "used": []
+          },
+          "domains": [
+            "D1"
+          ]
+        },
+        "convergences": {}
+      },
+      {
+        "start": "2032-02-11",
+        "end": "2032-05-29",
+        "jyotisha": {
+          "mahadasha": "Moon",
+          "antardasha": "Rahu",
+          "houses": [
+            8
+          ],
+          "domains": []
+        },
+        "western": {
+          "age": 30,
+          "profected_house": 7,
+          "lord_of_year": "Venus",
+          "lord_natal_house": 6,
+          "domains": [
+            "D4",
+            "D7"
+          ]
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "壬子",
+            "stem_ten_god": "比肩"
+          },
+          "ziwei_yearly": {
+            "branch": "子",
+            "palace_primary": "官禄",
+            "palace_alt_leap_school": "田宅",
+            "used": []
+          },
+          "domains": [
+            "D1"
+          ]
+        },
+        "convergences": {}
+      },
+      {
+        "start": "2032-05-29",
+        "end": "2032-06-28",
+        "jyotisha": {
+          "mahadasha": "Moon",
+          "antardasha": "Rahu",
+          "houses": [
+            8
+          ],
+          "domains": []
+        },
+        "western": {
+          "age": 31,
+          "profected_house": 8,
+          "lord_of_year": "Mercury",
+          "lord_natal_house": 8,
+          "domains": []
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "壬子",
+            "stem_ten_god": "比肩"
+          },
+          "ziwei_yearly": {
+            "branch": "子",
+            "palace_primary": "官禄",
+            "palace_alt_leap_school": "田宅",
+            "used": []
+          },
+          "domains": [
+            "D1"
+          ]
+        },
+        "convergences": {}
+      },
+      {
+        "start": "2032-06-28",
+        "end": "2033-01-31",
+        "jyotisha": {
+          "mahadasha": "Moon",
+          "antardasha": "Jupiter",
+          "houses": [
+            2,
+            5,
+            7
+          ],
+          "domains": [
+            "D3",
+            "D4",
+            "D6"
+          ]
+        },
+        "western": {
+          "age": 31,
+          "profected_house": 8,
+          "lord_of_year": "Mercury",
+          "lord_natal_house": 8,
+          "domains": []
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "壬子",
+            "stem_ten_god": "比肩"
+          },
+          "ziwei_yearly": {
+            "branch": "子",
+            "palace_primary": "官禄",
+            "palace_alt_leap_school": "田宅",
+            "used": []
+          },
+          "domains": [
+            "D1"
+          ]
+        },
+        "convergences": {}
+      },
+      {
+        "start": "2033-01-31",
+        "end": "2033-02-03",
+        "jyotisha": {
+          "mahadasha": "Moon",
+          "antardasha": "Jupiter",
+          "houses": [
+            2,
+            5,
+            7
+          ],
+          "domains": [
+            "D3",
+            "D4",
+            "D6"
+          ]
+        },
+        "western": {
+          "age": 31,
+          "profected_house": 8,
+          "lord_of_year": "Mercury",
+          "lord_natal_house": 8,
+          "domains": []
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "壬子",
+            "stem_ten_god": "比肩"
+          },
+          "ziwei_yearly": {
+            "branch": "丑",
+            "palace_primary": "仆役",
+            "palace_alt_leap_school": "官禄",
+            "used": []
+          },
+          "domains": [
+            "D1"
+          ]
+        },
+        "convergences": {}
+      },
+      {
+        "start": "2033-02-03",
+        "end": "2033-05-29",
+        "jyotisha": {
+          "mahadasha": "Moon",
+          "antardasha": "Jupiter",
+          "houses": [
+            2,
+            5,
+            7
+          ],
+          "domains": [
+            "D3",
+            "D4",
+            "D6"
+          ]
+        },
+        "western": {
+          "age": 31,
+          "profected_house": 8,
+          "lord_of_year": "Mercury",
+          "lord_natal_house": 8,
+          "domains": []
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "癸丑",
+            "stem_ten_god": "劫财"
+          },
+          "ziwei_yearly": {
+            "branch": "丑",
+            "palace_primary": "仆役",
+            "palace_alt_leap_school": "官禄",
+            "used": []
+          },
+          "domains": [
+            "D1"
+          ]
+        },
+        "convergences": {}
+      },
+      {
+        "start": "2033-05-29",
+        "end": "2033-10-28",
+        "jyotisha": {
+          "mahadasha": "Moon",
+          "antardasha": "Jupiter",
+          "houses": [
+            2,
+            5,
+            7
+          ],
+          "domains": [
+            "D3",
+            "D4",
+            "D6"
+          ]
+        },
+        "western": {
+          "age": 32,
+          "profected_house": 9,
+          "lord_of_year": "Moon",
+          "lord_natal_house": 11,
+          "domains": [
+            "D3",
+            "D9"
+          ]
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "癸丑",
+            "stem_ten_god": "劫财"
+          },
+          "ziwei_yearly": {
+            "branch": "丑",
+            "palace_primary": "仆役",
+            "palace_alt_leap_school": "官禄",
+            "used": []
+          },
+          "domains": [
+            "D1"
+          ]
+        },
+        "convergences": {
+          "D3": {
+            "clusters": [
+              "jyotisha",
+              "western"
+            ],
+            "grade": "moderate"
+          }
+        }
+      },
+      {
+        "start": "2033-10-28",
+        "end": "2034-02-03",
+        "jyotisha": {
+          "mahadasha": "Moon",
+          "antardasha": "Saturn",
+          "houses": [
+            3,
+            4,
+            7
+          ],
+          "domains": [
+            "D4",
+            "D5",
+            "D8"
+          ]
+        },
+        "western": {
+          "age": 32,
+          "profected_house": 9,
+          "lord_of_year": "Moon",
+          "lord_natal_house": 11,
+          "domains": [
+            "D3",
+            "D9"
+          ]
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "癸丑",
+            "stem_ten_god": "劫财"
+          },
+          "ziwei_yearly": {
+            "branch": "丑",
+            "palace_primary": "仆役",
+            "palace_alt_leap_school": "官禄",
+            "used": []
+          },
+          "domains": [
+            "D1"
+          ]
+        },
+        "convergences": {}
+      },
+      {
+        "start": "2034-02-03",
+        "end": "2034-02-19",
+        "jyotisha": {
+          "mahadasha": "Moon",
+          "antardasha": "Saturn",
+          "houses": [
+            3,
+            4,
+            7
+          ],
+          "domains": [
+            "D4",
+            "D5",
+            "D8"
+          ]
+        },
+        "western": {
+          "age": 32,
+          "profected_house": 9,
+          "lord_of_year": "Moon",
+          "lord_natal_house": 11,
+          "domains": [
+            "D3",
+            "D9"
+          ]
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "甲寅",
+            "stem_ten_god": "食神"
+          },
+          "ziwei_yearly": {
+            "branch": "丑",
+            "palace_primary": "仆役",
+            "palace_alt_leap_school": "官禄",
+            "used": []
+          },
+          "domains": [
+            "D6"
+          ]
+        },
+        "convergences": {}
+      },
+      {
+        "start": "2034-02-19",
+        "end": "2034-05-29",
+        "jyotisha": {
+          "mahadasha": "Moon",
+          "antardasha": "Saturn",
+          "houses": [
+            3,
+            4,
+            7
+          ],
+          "domains": [
+            "D4",
+            "D5",
+            "D8"
+          ]
+        },
+        "western": {
+          "age": 32,
+          "profected_house": 9,
+          "lord_of_year": "Moon",
+          "lord_natal_house": 11,
+          "domains": [
+            "D3",
+            "D9"
+          ]
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "甲寅",
+            "stem_ten_god": "食神"
+          },
+          "ziwei_yearly": {
+            "branch": "寅",
+            "palace_primary": "迁移",
+            "palace_alt_leap_school": "仆役",
+            "used": []
+          },
+          "domains": [
+            "D6"
+          ]
+        },
+        "convergences": {}
+      },
+      {
+        "start": "2034-05-29",
+        "end": "2035-02-04",
+        "jyotisha": {
+          "mahadasha": "Moon",
+          "antardasha": "Saturn",
+          "houses": [
+            3,
+            4,
+            7
+          ],
+          "domains": [
+            "D4",
+            "D5",
+            "D8"
+          ]
+        },
+        "western": {
+          "age": 33,
+          "profected_house": 10,
+          "lord_of_year": "Sun",
+          "lord_natal_house": 8,
+          "domains": [
+            "D2"
+          ]
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "甲寅",
+            "stem_ten_god": "食神"
+          },
+          "ziwei_yearly": {
+            "branch": "寅",
+            "palace_primary": "迁移",
+            "palace_alt_leap_school": "仆役",
+            "used": []
+          },
+          "domains": [
+            "D6"
+          ]
+        },
+        "convergences": {}
+      },
+      {
+        "start": "2035-02-04",
+        "end": "2035-02-08",
+        "jyotisha": {
+          "mahadasha": "Moon",
+          "antardasha": "Saturn",
+          "houses": [
+            3,
+            4,
+            7
+          ],
+          "domains": [
+            "D4",
+            "D5",
+            "D8"
+          ]
+        },
+        "western": {
+          "age": 33,
+          "profected_house": 10,
+          "lord_of_year": "Sun",
+          "lord_natal_house": 8,
+          "domains": [
+            "D2"
+          ]
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "乙卯",
+            "stem_ten_god": "伤官"
+          },
+          "ziwei_yearly": {
+            "branch": "寅",
+            "palace_primary": "迁移",
+            "palace_alt_leap_school": "仆役",
+            "used": []
+          },
+          "domains": [
+            "D6"
+          ]
+        },
+        "convergences": {}
+      },
+      {
+        "start": "2035-02-08",
+        "end": "2035-05-29",
+        "jyotisha": {
+          "mahadasha": "Moon",
+          "antardasha": "Saturn",
+          "houses": [
+            3,
+            4,
+            7
+          ],
+          "domains": [
+            "D4",
+            "D5",
+            "D8"
+          ]
+        },
+        "western": {
+          "age": 33,
+          "profected_house": 10,
+          "lord_of_year": "Sun",
+          "lord_natal_house": 8,
+          "domains": [
+            "D2"
+          ]
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "乙卯",
+            "stem_ten_god": "伤官"
+          },
+          "ziwei_yearly": {
+            "branch": "卯",
+            "palace_primary": "疾厄",
+            "palace_alt_leap_school": "迁移",
+            "used": []
+          },
+          "domains": [
+            "D6"
+          ]
+        },
+        "convergences": {}
+      },
+      {
+        "start": "2035-05-29",
+        "end": "2036-01-28",
+        "jyotisha": {
+          "mahadasha": "Moon",
+          "antardasha": "Mercury",
+          "houses": [
+            8,
+            11
+          ],
+          "domains": [
+            "D3"
+          ]
+        },
+        "western": {
+          "age": 34,
+          "profected_house": 11,
+          "lord_of_year": "Mercury",
+          "lord_natal_house": 8,
+          "domains": [
+            "D3"
+          ]
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "乙卯",
+            "stem_ten_god": "伤官"
+          },
+          "ziwei_yearly": {
+            "branch": "卯",
+            "palace_primary": "疾厄",
+            "palace_alt_leap_school": "迁移",
+            "used": []
+          },
+          "domains": [
+            "D6"
+          ]
+        },
+        "convergences": {
+          "D3": {
+            "clusters": [
+              "jyotisha",
+              "western"
+            ],
+            "grade": "moderate"
+          }
+        }
+      },
+      {
+        "start": "2036-01-28",
+        "end": "2036-02-04",
+        "jyotisha": {
+          "mahadasha": "Moon",
+          "antardasha": "Mercury",
+          "houses": [
+            8,
+            11
+          ],
+          "domains": [
+            "D3"
+          ]
+        },
+        "western": {
+          "age": 34,
+          "profected_house": 11,
+          "lord_of_year": "Mercury",
+          "lord_natal_house": 8,
+          "domains": [
+            "D3"
+          ]
+        },
+        "sinic": {
+          "bazi_annual": {
+            "pillar": "乙卯",
+            "stem_ten_god": "伤官"
+          },
+          "ziwei_yearly": {
+            "branch": "辰",
+            "palace_primary": "财帛",
+            "palace_alt_leap_school": "疾厄",
+            "used": []
+          },
+          "domains": [
+            "D6"
+          ]
+        },
+        "convergences": {
+          "D3": {
+            "clusters": [
+              "jyotisha",
+              "western"
+            ],
+            "grade": "moderate"
+          }
+        }
+      },
+      {
+        "start": "2036-02-04",
+        "end": "2036-05-29",
+        "jyotisha": {
+          "mahadasha": "Moon",
+          "antardasha": "Mercury",
+          "houses": [
+            8,
+            11
+          ],
+          "domains": [
+            "D3"
+          ]
+        },
+        "western": {
+          "age": 34,
+          "profected_house": 11,
+          "lord_of_year": "Mercury",
+          "lord_natal_house": 8,
+          "domains": [
+            "D3"
+          ]
+        },
+        "sinic": {
+          "ziwei_yearly": {
+            "branch": "辰",
+            "palace_primary": "财帛",
+            "palace_alt_leap_school": "疾厄",
+            "used": []
+          },
+          "domains": []
+        },
+        "convergences": {
+          "D3": {
+            "clusters": [
+              "jyotisha",
+              "western"
+            ],
+            "grade": "moderate"
+          }
+        }
+      },
+      {
+        "start": "2036-05-29",
+        "end": "2036-10-28",
+        "jyotisha": {
+          "mahadasha": "Moon",
+          "antardasha": "Mercury",
+          "houses": [
+            8,
+            11
+          ],
+          "domains": [
+            "D3"
+          ]
+        },
+        "western": {
+          "age": 35,
+          "profected_house": 12,
+          "lord_of_year": "Venus",
+          "lord_natal_house": 6,
+          "domains": [
+            "D7"
+          ]
+        },
+        "sinic": {
+          "ziwei_yearly": {
+            "branch": "辰",
+            "palace_primary": "财帛",
+            "palace_alt_leap_school": "疾厄",
+            "used": []
+          },
+          "domains": []
+        },
+        "convergences": {}
+      },
+      {
+        "start": "2036-10-28",
+        "end": "2036-11-09",
+        "jyotisha": {
+          "mahadasha": "Moon",
+          "antardasha": "Ketu",
+          "houses": [
+            2
+          ],
+          "domains": [
+            "D3"
+          ]
+        },
+        "western": {
+          "age": 35,
+          "profected_house": 12,
+          "lord_of_year": "Venus",
+          "lord_natal_house": 6,
+          "domains": [
+            "D7"
+          ]
+        },
+        "sinic": {
+          "ziwei_yearly": {
+            "branch": "辰",
+            "palace_primary": "财帛",
+            "palace_alt_leap_school": "疾厄",
+            "used": []
+          },
+          "domains": []
+        },
+        "convergences": {}
+      }
+    ],
+    "windows": [
+      {
+        "domain": "D3",
+        "start": "2026-11-09",
+        "end": "2027-05-17",
+        "clusters": [
+          "western",
+          "sinic"
+        ],
+        "grade": "moderate"
+      },
+      {
+        "domain": "D4",
+        "start": "2026-11-09",
+        "end": "2027-05-17",
+        "clusters": [
+          "jyotisha",
+          "sinic"
+        ],
+        "grade": "moderate"
+      },
+      {
+        "domain": "D3",
+        "start": "2027-05-17",
+        "end": "2027-05-29",
+        "clusters": [
+          "jyotisha",
+          "western",
+          "sinic"
+        ],
+        "grade": "strong"
+      },
+      {
+        "domain": "D3",
+        "start": "2027-05-29",
+        "end": "2028-02-04",
+        "clusters": [
+          "jyotisha",
+          "sinic"
+        ],
+        "grade": "moderate"
+      },
+      {
+        "domain": "D6",
+        "start": "2029-05-29",
+        "end": "2029-07-29",
+        "clusters": [
+          "jyotisha",
+          "western"
+        ],
+        "grade": "moderate"
+      },
+      {
+        "domain": "D2",
+        "start": "2029-07-29",
+        "end": "2030-02-03",
+        "clusters": [
+          "jyotisha",
+          "sinic"
+        ],
+        "grade": "moderate"
+      },
+      {
+        "domain": "D3",
+        "start": "2030-05-29",
+        "end": "2030-12-28",
+        "clusters": [
+          "jyotisha",
+          "western"
+        ],
+        "grade": "moderate"
+      },
+      {
+        "domain": "D7",
+        "start": "2030-05-29",
+        "end": "2030-12-28",
+        "clusters": [
+          "jyotisha",
+          "western"
+        ],
+        "grade": "moderate"
+      },
+      {
+        "domain": "D3",
+        "start": "2033-05-29",
+        "end": "2033-10-28",
+        "clusters": [
+          "jyotisha",
+          "western"
+        ],
+        "grade": "moderate"
+      },
+      {
+        "domain": "D3",
+        "start": "2035-05-29",
+        "end": "2036-05-29",
+        "clusters": [
+          "jyotisha",
+          "western"
+        ],
+        "grade": "moderate"
+      }
+    ],
+    "base_rate": {
+      "avg_fraction_domains_activated": {
+        "jyotisha": 0.21519603370137178,
+        "western": 0.13334549989354258,
+        "sinic": 0.11637314840161815
+      },
+      "chance_domain_hit_by_>=2_clusters": 0.06257754493611332,
+      "chance_domain_hit_by_3_clusters": 0.0033393766830361426,
+      "expected_moderate_domains_per_segment_by_chance": 0.5631979044250199
+    },
+    "context_backdrops": {
+      "vimshottari_mahadasha": [
+        {
+          "lord": "Sun",
+          "start": "2023-07-29T14:53:16.077263+00:00",
+          "end": "2029-07-29T02:53:16.077263+00:00"
+        },
+        {
+          "lord": "Moon",
+          "start": "2029-07-29T02:53:16.077263+00:00",
+          "end": "2039-07-29T14:53:16.077263+00:00"
+        }
+      ],
+      "bazi_da_yun": [
+        {
+          "pillar": "辛卯",
+          "start": "2019-06-09T09:18:15.962040+00:00",
+          "end": "2029-06-08T19:25:56.762040+00:00",
+          "start_age_years": 18.02639454038991
+        },
+        {
+          "pillar": "庚寅",
+          "start": "2029-06-08T19:25:56.762040+00:00",
+          "end": "2039-06-09T05:33:37.562040+00:00",
+          "start_age_years": 28.02797705193978
+        }
+      ],
+      "ziwei_decadal": [
+        {
+          "start": "2026-02-17",
+          "end_exclusive": "2036-01-28",
+          "palace_branch": "午",
+          "stem": "甲",
+          "natal_palace_at_branch": "夫妻",
+          "mutagen_stars_lu_quan_ke_ji": [
+            "廉贞",
+            "破军",
+            "武曲",
+            "太阳"
+          ]
+        },
+        {
+          "start": "2036-01-28",
+          "end_exclusive": "2037-03-02",
+          "palace_branch": "巳",
+          "stem": "癸",
+          "natal_palace_at_branch": "子女",
+          "mutagen_stars_lu_quan_ke_ji": [
+            "破军",
+            "巨门",
+            "太阴",
+            "贪狼"
+          ]
+        }
+      ]
+    }
+  },
+  "overlays_non_voting": {
+    "maya": {
+      "calendar_round": "5 K'ib' 14 Sip",
+      "long_count": "12.19.8.4.16",
+      "meaning": "omitted: no named Maya source available to attribute a day-sign meaning"
+    },
+    "tibetan": {
+      "year": {
+        "element": "Iron",
+        "animal": "Snake",
+        "gender": "female",
+        "sexagenary_index_0_wood_mouse": 17,
+        "rabjung_cycle": 17,
+        "rabjung_year": 15
+      },
+      "meaning": "omitted: no sourced lineage text available"
+    }
+  },
+  "removed_candidate_claims": {
+    "missing_basis": {
+      "count": 2,
+      "items": [
+        "ziwei D7: mapped palace(s) empty -> silence, no projection",
+        "sinic D7: no mapped datum (silence)"
+      ]
+    },
+    "low_confidence": {
+      "count": 7,
+      "items": [
+        "ziwei D1 (mixed, medium) excluded from Sinic vote: confidence low",
+        "ziwei D2 (supportive, medium) excluded from Sinic vote: confidence low",
+        "bazi D2 (challenging, high) excluded from Sinic vote: confidence low",
+        "ziwei D4 (supportive, high) excluded from Sinic vote: confidence low",
+        "ziwei D6 (supportive, medium) excluded from Sinic vote: confidence low",
+        "bazi D6 (challenging, low) excluded from Sinic vote: confidence low",
+        "ziwei D9 (supportive, high) excluded from Sinic vote: confidence low"
+      ]
+    },
+    "duplication": {
+      "count": 0,
+      "items": []
+    },
+    "safety_scope": {
+      "count": 2,
+      "items": [
+        "jyotisha house 8 occupants ['Mercury', 'Rahu'] not projected (registry: unmapped house)",
+        "western house 8 occupants ['Sun', 'Mercury', 'Jupiter', 'Saturn'] not projected (registry: unmapped house)"
+      ]
+    }
+  }
+}
